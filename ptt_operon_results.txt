@@ -1,0 +1,2643 @@
+OPERON PREDICTION RESULTS  —  PTT Genome(s)
+Method : Adjacent co-directional genes with intergenic distance < 50 bp
+Rule   : gap = next_gene.start - prev_gene.stop - 1 <= 49
+Files  : 4 PTT file(s)
+================================================================================
+
+================================================================================
+  GENOME : Bacillus subtilis subsp. subtilis str. 168 chromosome, complete genome
+================================================================================
+
+  --- Summary Statistics ---
+  Total genes (annotated)       : 4176
+  Total operons predicted       : 771
+  Genes in operons              : 2294  (54.93% of all genes)
+  Singleton genes (no operon)   : 1882  (45.07% of all genes)
+
+  Operon size (number of genes):
+    Minimum   : 2
+    Maximum   : 27
+    Mean      : 2.98
+    Median    : 2
+
+  Strand breakdown:
+    Forward (+) operons : 360
+    Reverse (-) operons : 411
+
+  Largest operon (27 genes):
+    Location : 1695254 - 1717789  [+]
+    Genes    : fliH, fliI, fliJ, ylxF, fliK, flgD, flgG, ylzI, fliL, fliM, fliY, cheY, fliZ, fliP, fliQ, fliR, flhB, flhA, flhF, ylxH, cheB, cheA, cheW, cheC, cheD, sigD, ylxL
+
+  Longest genomic span operon (45873 bp):
+    Location : 1788469 - 1834341  [+]
+    Genes    : acpK, pksF, pksG, pksH, pksI, pksJ, pksL, pksM
+
+  Operon size distribution:
+      Size   Count  Bar
+    ------  ------  ----------------------------------------
+         2     461  ||||||||||||||||||||||||||||||||||||||||
+         3     155  ||||||||||||||||||||||||||||||||||||||||
+         4      69  ||||||||||||||||||||||||||||||||||||||||
+         5      29  |||||||||||||||||||||||||||||
+         6      15  |||||||||||||||
+         7      16  ||||||||||||||||
+         8      10  ||||||||||
+         9       3  |||
+        10       1  |
+        11       4  ||||
+        12       3  |||
+        13       1  |
+        15       2  ||
+        17       1  |
+        27       1  |
+
+  Detailed operon list:
+  #          Start       Stop  Strand  NGenes  Gene IDs
+  --------------------------------------------------------------------------------
+  1           3206       4812    +          3  yaaA, recF, yaaB
+  2          19062      20558    +          2  yaaD, yaaE
+  3          22496      23769    -          2  dck, dgk
+  4          26814      29705    +          4  dnaX, yaaK, recR, yaaL
+  5          35845      37638    +          2  xpaC, yaaN
+  6          37720      39797    +          2  yaaO, tmk
+  7          39871      42858    +          5  yaaQ, yaaR, holB, yaaT, yabA
+  8          42917      44799    +          3  yabB, yazA, yabC
+  9          50087      51518    +          2  rnmV, ksgA
+  10         54441      55672    +          2  purR, yabJ
+  11         56352      58698    +          2  glmU, prs
+  12         64817      68137    +          3  yabM, yabN, yabO
+  13         68216      69545    +          3  yabP, yabQ, divIC
+  14         73106      74825    +          2  yabS, yabT
+  15         74929      76886    +          2  tilS, hprT
+  16         79092      81695    +          3  coaX, hslO, yacD
+  17         82864      88635    +          8  pabB, pabA, pabC, sul, folB, folK, yazB, dusB
+  18        101449     106004    +          4  ctsR, mcsA, mcsB, clpC
+  19        106096     108558    +          2  radA, yacK
+  20        108674     110956    +          3  yacL, ispD, ispF
+  21        112800     116537    +          5  cysE, cysS, mrnC, rlmB, yacP
+  22        117349     117711    +          2  rpmG, secE
+  23        120061     120978    +          2  rplJ, rplL
+  24        129702     130630    +          2  rpsL, rpsG
+  25        135364     138144    +          5  rpsJ, rplC, rplD, rplW, rplB
+  26        138202     145822    +         17  rpsS, rplV, rpsC, rplP, rpmC, rpsQ, rplN, rplX, rplE, rpsN, rpsH, rplF, rplR, rpsE, rpmD, rplO, secY
+  27        145877     148754    +          7  adk, mapA, ybzG, infA, rpmJ, rpsM, rpsK
+  28        150443     153680    +          4  cbiO, cbiO, ybaF, truA
+  29        153842     154692    +          2  rplM, rpsI
+  30        179595     183323    -          4  ybbA, feuC, feuB, feuA
+  31        185194     189733    -          3  ybbC, ybbD, ybbE
+  32        189790     192965    -          3  ybbF, ybbH, murQ
+  33        193075     194025    -          2  ybbJ, ybbK
+  34        194849     196052    +          2  sigW, rsiW
+  35        196213     199843    +          3  ybbP, ybbR, glmM
+  36        203729     204890    +          2  adaA, adaB
+  37        205409     209556    +          2  ndhF, ybcC
+  38        214175     217632    +          3  skfB, skfC, skfE
+  39        217697     220032    +          3  skfF, skfG, skfH
+  40        220279     222912    +          3  ybdG, ybdJ, ybdK
+  41        228066     228522    +          2  csgA, ybxH
+  42        235965     238129    +          2  ybfA, ybfB
+  43        241917     243661    -          2  ybfH, ybfI
+  44        245190     246492    +          2  mpr, ybfJ
+  45        247744     249540    +          3  pssA, ybfM, psd
+  46        254907     257572    -          2  nagP, nagBB
+  47        257791     258807    +          2  ybgA, ybgB
+  48        262732     265174    -          2  glnT, ybgJ
+  49        265476     267663    +          2  glnJ, glnL
+  50        267890     270312    +          2  ycbC, ycbD
+  51        270396     273167    +          2  gudP, gudD
+  52        277160     278280    +          2  rtpA, ycbK
+  53        278377     279994    +          2  ycbL, ycbM
+  54        280086     281714    +          2  ycbN, ycbO
+  55        283816     285987    +          3  yczK, phoD, tatAD
+  56        288653     290698    -          2  lmrB, lmrA
+  57        294615     296285    -          2  natK, natR
+  58        296429     298330    +          2  natA, natB
+  59        305658     308144    +          2  ycdF, ycdG
+  60        309347     310842    +          2  adcC, adcB
+  61        312159     313974    +          3  yceC, yceD, yceE
+  62        314883     317603    +          2  yceG, yceH
+  63        321013     324000    +          3  opuAA, opuAB, opuAC
+  64        329774     332396    +          2  ldh, lctP
+  65        344551     347026    +          2  ycgM, ycgN
+  66        349996     351742    -          2  ycgQ, ycgR
+  67        355412     358181    -          2  nasE, nasD
+  68        358303     362757    -          2  nasC, nasB
+  69        364259     365754    +          2  yciA, yciB
+  70        365850     367256    +          2  yczL, yciC
+  71        367305     368858    -          2  yckA, yckB
+  72        371729     372597    -          2  nin, nucA
+  73        374603     375798    -          2  hxlB, hxlA
+  74        376968     391020    +          3  srfAA, srfAB, comS
+  75        398532     403116    +          2  srfAC, srfAD
+  76        409208     411462    -          3  tcyC, tcyB, tcyA
+  77        412540     415283    +          4  yclB, ubiD, bsdD, yclD
+  78        420110     424103    +          3  gerKA, gerKC, gerKB
+  79        424208     426364    -          2  yclH, yclI
+  80        426577     428668    +          2  yclJ, yclK
+  81        428831     430085    +          2  rapC, phrC
+  82        432372     435989    +          4  yclN, yclO, yclP, yclQ
+  83        436036     438352    -          2  ycnB, ycnC
+  84        438516     439569    -          2  ycnD, ycnE
+  85        444461     446129    +          2  glcU, gdh
+  86        446174     449033    -          3  ycnI, ycnJ, ycnK
+  87        449724     452739    +          3  mtlA, mtlF, mtlD
+  88        457023     462367    +          6  ycsF, ycsG, ycsI, kipI, kipA, kipR
+  89        471709     473088    +          2  ydaD, ydaE
+  90        478944     485956    +          5  ydaJ, ydaK, ydaL, ydaM, ydaN
+  91        495009     495703    +          2  ydbB, ydbC
+  92        497768     500045    +          2  dctS, dctR
+  93        502908     504594    +          2  ydbJ, ydbK
+  94        512814     514764    +          2  ydbS, ydbT
+  95        518657     519293    +          2  endB, ndoA
+  96        519408     522026    +          4  rsbRA, rsbS, rsbT, rsbU
+  97        522088     524249    +          4  rsbV, rsbW, sigB, rsbX
+  98        524492     525649    +          3  ydcF, ydcG, ydcH
+  99        529505     531513    -          3  ydcL, immA, immR
+  100       531787     532238    +          2  sacV, ydzL
+  101       532922     535831    +          3  ydcP, ydcQ, ydcR
+  102       536096     545532    +         11  ydcS, ydcT, yddA, yddB, yddC, yddD, yddE, yddF, yddG, yddH, yddI
+  103       547306     548557    +          2  rapI, phrI
+  104       556562     557449    +          2  ydzM, yddT
+  105       579541     581196    +          2  aseR, ydfA
+  106       587157     587476    -          2  ydzP, ydzQ
+  107       587744     589601    +          2  ydfH, ydfI
+  108       596478     598052    +          2  ydfN, ydfO
+  109       601741     602713    -          3  cotP, ydgA, ydgB
+  110       603012     603940    +          2  ydgC, ydgD
+  111       608933     612045    +          2  ydgG, ydgH
+  112       612191     613330    -          2  ydgI, ydgJ
+  113       622293     623290    -          2  ydhH, ydhI
+  114       626622     630027    +          4  gmuB, gmuA, gmuC, gmuD
+  115       630170     633862    +          4  gmuR, gmuE, gmuF, gmuG
+  116       640662     644298    +          5  thiL, ydiB, ydiC, rimI, gcp
+  117       646582     648704    +          4  moaC, ydiH, tatAY, tatCY
+  118       648742     649664    -          2  ydiK, ydiL
+  119       649903     651868    +          2  groES, groEL
+  120       655223     657697    +          2  ydiO, ydiP
+  121       659623     663027    +          3  ydiR, ydiS, ydjA
+  122       671994     674785    +          3  ydjG, ydjH, ydjI
+  123       681547     683364    -          2  ydjP, yeaA
+  124       685155     686889    -          2  gabP, ydzX
+  125       688184     692577    +          3  yeaC, yeaD, yebA
+  126       697538     698289    +          2  yebE, yebG
+  127       698612     701527    +          3  purE, purK, purB
+  128       701601     706871    +          5  purC, purS, purQ, purL, purF
+  129       706973     711416    +          4  purM, purN, purH, purD
+  130       713664     716745    +          3  yerA, yerB, yerC
+  131       719370     724825    +          3  pcrA, ligA, yerH
+  132       728732     731939    +          3  gatC, gatA, gatB
+  133       740288     744738    +          2  yeeA, yeeB
+  134       747079     749563    -          2  yezG, yeeF
+  135       750959     752252    +          2  rapH, phrH
+  136       754480     755780    +          2  yesE, yesF
+  137       755907     756986    +          3  cotJA, cotJB, cotJC
+  138       757111     757978    +          2  yesJ, yesK
+  139       758093     761558    +          3  yesL, yesM, yesN
+  140       761662     770113    +          8  yesO, yesP, yesQ, yesR, yesS, rhgT, yesU, yesV
+  141       770234     773980    +          2  yesW, yesX
+  142       774138     779407    +          3  yesY, yesZ, yetA
+  143       781092     784298    +          3  lplB, lplC, lplD
+  144       787992     789628    +          2  yetJ, yetK
+  145       799303     803286    +          4  yfnG, yfnF, yfnE, yfnD
+  146       807091     809422    +          2  yfmT, yfmS
+  147       822903     825715    -          3  yfmF, yfmE, yfmD
+  148       827252     827802    +          2  yfmA, yflT
+  149       830945     834187    +          3  citS, citT, yflP
+  150       844097     844645    +          2  yflD, yflB
+  151       846182     850174    -          4  yfkT, yfkS, yfkR, yfkQ
+  152       851850     854272    +          2  treA, treR
+  153       862004     863663    +          3  yfkJ, yfkI, yfkH
+  154       867164     869128    -          2  yfkC, yfkA
+  155       877599     878770    +          2  yfjM, yfjL
+  156       879002     883642    +          4  acoA, acoB, acoC, acoL
+  157       885844     886681    -          2  yfjF, yfjE
+  158       886775     889686    -          4  yfjD, yfjC, yfjB, yfjA
+  159       891436     893798    +          2  malR, malP
+  160       893904     897433    +          2  malQ, yfiC
+  161       897588     898867    +          2  catD, catE
+  162       900080     903687    +          3  yfiG, yfiH, yfiI
+  163       903811     905672    +          2  yfiJ, yfiK
+  164       905816     909125    +          3  yfiL, yfiM, yfiN
+  165       911964     913800    -          2  yfiR, yfiS
+  166       920474     922503    +          2  yfiZ, yfhA
+  167       925633     926743    +          2  recX, yfhH
+  168       929406     930585    +          2  yfhL, yfhM
+  169       961394     965157    +          4  ssuB, ssuA, ssuC, ssuD
+  170       966196     966871    -          2  ygaO, ygzD
+  171       969162     972806    +          5  yhbB, cspR, yhbD, yhbE, yhbF
+  172       976569     984170    +         11  yhbI, yhbJ, yhcA, yhcB, yhcC, yhcD, yhcE, yhcF, yhcG, yhcH, yhcI
+  173       991348     995594    +          2  yhcR, yhcS
+  174       997724     999943    +          2  yhcW, yhcX
+  175      1000364    1002322    +          2  yhxA, glpP
+  176      1002501    1004834    +          2  glpF, glpK
+  177      1008668    1010969    +          3  yhcY, yhcZ, yhdA
+  178      1028233    1030068    -          3  yhdK, yhdL, sigM
+  179      1036953    1038419    -          3  crcBA, yhdV, yhdW
+  180      1045318    1049093    +          2  yheI, yheH
+  181      1049142    1049926    -          2  yheG, yheF
+  182      1050811    1053253    -          2  yheD, yheC
+  183      1059203    1060924    -          2  yhaU, khtT
+  184      1062591    1064739    +          2  natA, natB
+  185      1064846    1068968    +          2  yhaO, yhaN
+  186      1077440    1080132    +          3  ecsA, ecsB, ecsC
+  187      1082870    1083729    -          2  yhgB, yhgC
+  188      1087250    1089609    +          2  hemH, hemY
+  189      1095063    1096523    +          2  yhfE, yhfF
+  190      1098412    1100154    +          2  yhfI, yhfJ
+  191      1109388    1112485    -          3  yhfS, yhfT, bioY
+  192      1119162    1120828    -          2  yhjB, yhjC
+  193      1121550    1122681    +          2  yhjE, sipV
+  194      1126400    1129611    -          3  ntdC, ntdB, ntdA
+  195      1136320    1143505    +          2  addB, addA
+  196      1143577    1148457    +          3  sbcD, sbcC, yisB
+  197      1148494    1150427    -          6  gerPF, gerPE, gerPD, gerPC, gerPB, gerPA
+  198      1162267    1164161    +          2  yisR, degA
+  199      1165449    1166670    -          2  yisT, yisU
+  200      1169877    1171642    -          2  yisZ, sat
+  201      1172650    1174091    +          2  yitC, yitD
+  202      1174861    1177253    -          2  yitF, yitG
+  203      1177365    1178682    -          2  yitH, yitI
+  204      1182448    1184479    -          3  yitM, yitO, yitP
+  205      1184657    1185901    +          3  yizB, yitQ, yitR
+  206      1192858    1194827    +          2  yitY, yitZ
+  207      1195034    1199256    +          4  argC, argJ, argB, argD
+  208      1199327    1204420    +          3  carA, carB, argF
+  209      1206629    1207788    +          2  med, comZ
+  210      1208222    1210424    +          2  fabHA, fabF
+  211      1211477    1213449    +          2  appD, appF
+  212      1215243    1217121    +          2  appB, appC
+  213      1221594    1225450    +          4  oppB, oppC, oppD, oppF
+  214      1229915    1233095    +          2  coiA, pepF
+  215      1233614    1234908    -          2  yjbH, yjbI
+  216      1236609    1238460    +          3  yjbL, yjbM, ppnK
+  217      1242449    1247652    +          7  tenA, tenI, thiO, thiS, thiG, thiF, yjbV
+  218      1251273    1252017    -          2  cotW, cotV
+  219      1256436    1258136    -          3  yjcF, yjcG, yjcH
+  220      1258492    1260778    +          2  yjcI, yjcJ
+  221      1265530    1266348    +          3  yjzF, yjzG, yjcO
+  222      1266614    1267413    +          2  yjcP, yjcQ
+  223      1272725    1275639    +          2  manP, manA
+  224      1285591    1289101    +          2  yjgC, yjgD
+  225      1291344    1293735    +          2  yjiB, yjiC
+  226      1294996    1296500    -          2  yjkA, yjkB
+  227      1298612    1300252    +          2  rex, ndh
+  228      1303423    1308714    +          5  yjmC, yjmD, uxuA, yjmF, exuT
+  229      1309880    1312812    +          2  uxaB, uxaA
+  230      1315869    1317129    +          2  rapA, phrA
+  231      1321848    1323717    +          4  yjzJ, xkdB, xkdC, ykzK
+  232      1323802    1324355    +          2  xkdD, xtrA
+  233      1325096    1334247    +         12  xtmA, xtmB, xkdE, xkdF, xkdG, ykzL, xkdH, xkdI, xkdJ, ykzM, xkdK, xkdM
+  234      1334339    1340875    +          6  xkdN, xkzB, xkdO, xkdP, xkdQ, xkdR
+  235      1340932    1346678    +          8  xkdS, xkdT, xkdU, xkzA, xkdV, xkdW, xkdX, xepA
+  236      1346731    1348182    +          3  xhlA, xhlB, xlyA
+  237      1348442    1349358    -          2  spoIISB, spoIISA
+  238      1349468    1351099    -          2  pit, ykaA
+  239      1354285    1357418    +          2  ykcB, ykcC
+  240      1360401    1365800    +          5  dppA, dppB, dppC, dppD, dppE
+  241      1365888    1369833    +          4  ykfA, ykfB, ykfC, ykfD
+  242      1375260    1376295    +          2  ykkA, ykkB
+  243      1376517    1377172    +          2  ykkC, ykkD
+  244      1378496    1380852    +          2  proB, proA
+  245      1382020    1382627    +          2  ohrB, ykzN
+  246      1388070    1391642    -          4  thiX, thiW, thiV, thiU
+  247      1391953    1394684    +          3  ykoG, ykoH, ykoI
+  248      1401772    1404492    +          2  ykoS, ykoT
+  249      1404518    1409578    -          3  ligD, ykoV, ykoW
+  250      1411892    1413789    +          2  sigI, rsgI
+  251      1417561    1417895    +          2  ykzP, ykzE
+  252      1419213    1421923    +          2  kinE, ogt
+  253      1422172    1424440    -          2  mtnA, mtnK
+  254      1427034    1430120    +          4  mtnW, mtnX, mtnB, mtnD
+  255      1433676    1435245    -          2  motB, motA
+  256      1439448    1441788    +          4  queC, queD, queE, ykvM
+  257      1444099    1445541    +          2  ykvP, ykzQ
+  258      1445638    1446568    +          2  ykvQ, ykzR
+  259      1459384    1461362    +          2  ptsH, ptsI
+  260      1487038    1488868    +          3  ykuN, ykuO, ykuP
+  261      1496155    1499665    +          5  moeB, moeA, mobB, moaE, moaD
+  262      1499889    1503472    +          2  yknU, yknV
+  263      1503582    1507298    +          4  yknW, yknX, yknY, yknZ
+  264      1507578    1511163    +          3  fruR, fruK, fruA
+  265      1518333    1520468    +          2  kinC, ykqA
+  266      1523118    1525000    -          2  rnjA, ykzG
+  267      1528326    1530422    +          2  pdhA, pdhB
+  268      1530537    1533282    +          2  pdhC, pdhD
+  269      1537441    1538692    +          2  suhB, ykzC
+  270      1541886    1544896    +          4  ylaA, ylaB, ylaC, ylaD
+  271      1560466    1565315    +          5  ctaC, ctaD, ctaE, ctaF, ctaG
+  272      1567651    1568304    +          2  ylbD, ylbE
+  273      1569519    1570563    +          2  ylbH, coaD
+  274      1571981    1573790    +          2  ylbK, ylbL
+  275      1573807    1575236    -          2  ylbM, ylzH
+  276      1575264    1575983    +          2  ylbN, rpmF
+  277      1580622    1584097    +          3  mraW, ftsL, pbpB
+  278      1587926    1590256    +          2  mraY, murD
+  279      1591540    1593574    +          2  murG, murB
+  280      1593704    1596300    +          4  divIB, ylxW, ylxX, sbp
+  281      1596474    1598980    +          2  ftsA, ftsZ
+  282      1609327    1611593    +          4  ylmD, ylmE, sepF, ylmG
+  283      1616744    1618121    +          2  lspA, rluD
+  284      1620476    1629970    +          8  pyrB, pyrC, pyrAA, carB, pyrK, pyrD, pyrF, pyrE
+  285      1630382    1633962    +          4  cysH, cysP, sat, cysC
+  286      1634061    1636091    +          3  sumT, sirB, sirC
+  287      1641672    1642770    +          3  ylzA, gmk, rpoZ
+  288      1642851    1654657    +         10  coaBC, priA, def, fmt, rsmB, yloN, prpC, prkC, yloQ, rpe
+  289      1656064    1658103    +          2  yloU, yloV
+  290      1658242    1661858    +          3  sdaAB, sdaAA, recG
+  291      1661967    1665253    +          4  ylpC, plsX, fabD, fabG
+  292      1666560    1671129    +          2  smc, ftsY
+  293      1671828    1673514    +          2  ylxM, ffh
+  294      1673620    1674137    +          2  rpsP, ylqC
+  295      1674259    1675902    +          3  ylqD, rimM, trmD
+  296      1677451    1680258    +          3  rnhB, ylqG, ylqH
+  297      1680431    1682519    +          2  sucC, sucD
+  298      1687187    1690898    +          4  xerC, clpQ, hslU, codY
+  299      1691278    1695135    +          5  flgB, flgC, fliE, fliF, fliG
+  300      1695254    1717789    +         27  fliH, fliI, fliJ, ylxF, fliK, flgD, flgG, ylzI, fliL, fliM, fliY, cheY, fliZ, fliP, fliQ, fliR, flhB, flhA, flhF, ylxH, cheB, cheA, cheW, cheC, cheD, sigD, ylxL
+  301      1719802    1721083    +          2  pyrH, frr
+  302      1721214    1722809    +          2  uppS, cdsA
+  303      1722871    1727024    +          3  dxr, rseP, proS
+  304      1731776    1736804    +          7  ylxS, nusA, ylxR, ylxQ, infB, ylxP, rbfA
+  305      1736886    1738784    +          2  truB, ribC
+  306      1741618    1743846    +          2  ylxY, mlpA
+  307      1744367    1745865    +          2  spoVFA, spoVFB
+  308      1747123    1749240    +          2  dapG, dapA
+  309      1751201    1752147    +          2  tepA, ylzJ
+  310      1757037    1759600    +          2  ymfF, ymfH
+  311      1761707    1764472    +          3  ymfM, pgsA, cinA
+  312      1770461    1772695    +          2  tdh, kbl
+  313      1772843    1774805    +          2  ymcB, ymcA
+  314      1775745    1780220    +          2  mutS, mutL
+  315      1785133    1788407    +          2  pksD, pksE
+  316      1788469    1834341    +          8  acpK, pksF, pksG, pksH, pksI, pksJ, pksL, pksM
+  317      1834409    1858521    +          2  pksN, pksR
+  318      1864691    1865375    -          2  ebrB, ebrA
+  319      1866389    1867594    +          2  miaA, hfq
+  320      1868617    1872748    +          4  nrdI, nrdE, nrdF, ymaB
+  321      1875304    1877849    +          2  ynbA, ynbB
+  322      1884968    1885640    +          2  ynaF, ynaG
+  323      1887352    1890375    +          2  xynP, xynB
+  324      1899589    1900514    +          2  yncE, yncF
+  325      1907494    1911381    +          3  yndD, yndE, yndF
+  326      1911528    1914995    +          4  yndG, yndH, yndJ, yndK
+  327      1918406    1919395    +          2  yneA, yneB
+  328      1926128    1926452    -          2  sspP, sspO
+  329      1930264    1930698    +          2  sspN, tlp
+  330      1930834    1931514    +          2  yneP, yneQ
+  331      1933477    1937868    +          2  parE, parC
+  332      1946249    1947595    +          2  yngA, yngB
+  333      1949682    1957360    -          7  yngE, yngF, yngG, yngHB, yngH, yngI, yngJ
+  334      1960198    1997957    -          5  ppsE, ppsD, ppsC, ppsB, ppsA
+  335      1998340    2000826    -          2  dacC, yoxA
+  336      2008572    2014632    -          2  gltD, gltA
+  337      2015733    2017738    -          2  proJ, proH
+  338      2019797    2021144    +          2  yoxB, yoaA
+  339      2022561    2025076    -          2  yoaC, yoaD
+  340      2043186    2043932    +          2  yoaS, yozG
+  341      2062150    2063384    +          2  rapK, phrK
+  342      2063510    2064833    -          3  yobH, yozK, yozL
+  343      2071286    2073556    -          2  yobK, yobL
+  344      2079611    2081094    -          2  yobQ, yobR
+  345      2081172    2082454    -          2  yobS, yobT
+  346      2090574    2092304    +          2  desK, desR
+  347      2098859    2099360    +          2  yozN, yocN
+  348      2102168    2104901    +          2  sqhC, sodF
+  349      2107505    2111608    -          2  odhB, sucA
+  350      2111837    2114678    -          2  yojO, yojN
+  351      2119393    2121615    +          2  yojI, rsbRC
+  352      2121641    2122950    -          3  yojG, yojF, yoyC
+  353      2128464    2129993    -          2  yodD, yodE
+  354      2130177    2131867    +          2  yoyD, yodF
+  355      2139179    2145690    -          7  yokU, kamA, yodP, yodQ, yodR, yodS, yodT
+  356      2146013    2148101    -          2  cgeE, cgeD
+  357      2148676    2150037    +          2  cgeA, cgeB
+  358      2152086    2152852    -          2  yotN, yotM
+  359      2153718    2156120    -          8  yotI, yotH, yotG, yotF, yotE, yotD, yotC, yotB
+  360      2157829    2158287    -          2  yosV, yojW
+  361      2159268    2161086    -          4  yosS, yosR, nrdF, yosQ
+  362      2162108    2166325    -          3  nrdEB, nrdI, yosL
+  363      2166413    2167509    -          4  yosK, yosJ, yosI, yosH
+  364      2167570    2169676    -          6  yosG, yosF, yosE, yosD, yosC, yosB
+  365      2170309    2174734    -         12  yorY, yorX, yorW, yorV, mtbP, yorT, yorS, yorR, yorQ, yorP, yorO, yorN
+  366      2174852    2185421    -          7  yorM, yorL, yorK, yorJ, yorI, yorH, yorG
+  367      2185504    2186811    -          2  yorF, yorE
+  368      2188204    2190785    -          2  yorA, yoqZ
+  369      2194053    2195059    -          3  yoqS, yoqR, yoqP
+  370      2196389    2197859    -          3  yoqL, yoqK, yoqJ
+  371      2198070    2198765    -          2  yoqI, yoqH
+  372      2198848    2199526    -          3  yoqG, yoqF, yoqE
+  373      2199580    2202716    -          8  yoqD, yoqC, yoqB, yoqA, yopZ, yopY, yopX, yopW
+  374      2204192    2206575    -          2  yopR, yopQ
+  375      2206682    2208528    -          4  yopP, yopO, yopN, yopM
+  376      2208855    2210154    -          2  yopL, yopK
+  377      2210331    2212496    -          6  yopJ, yopI, yopH, yopG, yopF, yopE
+  378      2219281    2219960    -          3  yonU, yoyJ, yonT
+  379      2222340    2225093    +          2  yonP, yonO
+  380      2227297    2228722    +          2  yonK, yonJ
+  381      2229988    2241992    +         15  yonG, yonF, yonE, yonD, yonC, yonB, yonA, yomZ, yomY, yomX, yomW, yomV, yomU, youA, yomT
+  382      2242056    2246148    +          7  yomS, yomR, yomQ, yomP, yomO, yomN, yomM
+  383      2246656    2247543    -          2  yomL, youB
+  384      2256062    2262267    +          4  yomH, yomG, yomF, yomE
+  385      2264680    2265169    +          2  bhlA, bhlB
+  386      2265225    2269463    -          4  bdbB, yolJ, bdbA, sunT
+  387      2270407    2271982    -          2  uvrX, yolD
+  388      2272534    2273363    -          2  yolB, yolA
+  389      2273989    2275136    -          2  yokL, yokK
+  390      2275200    2277421    -          2  yokJ, yokI
+  391      2279977    2281363    +          2  yokF, yokE
+  392      2287097    2288062    -          2  yppQ, msrA
+  393      2290078    2291625    -          3  ypmT, ypmS, ypmR
+  394      2294286    2295943    +          2  yplP, yplQ
+  395      2295982    2297900    -          3  ypkP, dfrA, thyA
+  396      2297984    2299146    -          2  ypjQ, ypjP
+  397      2299406    2300655    -          2  ypiP, yphP
+  398      2303920    2305035    -          2  ypgQ, bsaA
+  399      2308792    2309647    -          2  ypeQ, ypeP
+  400      2309730    2310987    +          3  ypdP, ypdQ, sspL
+  401      2316446    2318053    -          2  ypbQ, bcsA
+  402      2318127    2320024    -          2  pbuX, xpt
+  403      2321972    2325632    -          4  kdgT, kdgA, kdgK, kdgR
+  404      2325854    2327447    +          2  kduI, kduD
+  405      2332153    2333011    -          2  ypsA, cotD
+  406      2333324    2336830    -          2  yprB, yprA
+  407      2338809    2339471    -          2  yppE, yppD
+  408      2340802    2344188    +          2  recU, ponA
+  409      2344264    2346131    -          3  ypoC, nth, dnaD
+  410      2347660    2349528    -          3  aspB, ypmB, ypmA
+  411      2352592    2354672    -          3  panD, panC, panB
+  412      2354918    2360490    -          7  birA, cca, ypjH, ypjG, mgsA, dapB, ypjD
+  413      2363111    2365092    -          3  qcrC, qcrB, qcrA
+  414      2367954    2377416    -          9  aroE, tyrA, hisC, trpA, trpB, trpF, trpC, trpD, trpE
+  415      2377632    2380272    -          3  aroH, aroB, aroF
+  416      2381919    2384370    -          3  hepT, ubiE, hepS
+  417      2384534    2385355    -          2  mtrB, folE
+  418      2387854    2388813    -          2  yphF, yphE
+  419      2389151    2391516    -          2  gpsA, engA
+  420      2391670    2393350    -          3  ypzH, seaA, yphA
+  421      2393602    2395812    -          2  fni, rpsA
+  422      2396798    2397672    -          2  ypfB, ypfA
+  423      2397765    2400069    -          2  ypeB, sleB
+  424      2405620    2406862    -          2  ypbE, ypbD
+  425      2406922    2409463    -          2  recQ, ypbB
+  426      2413585    2415211    -          2  rsiX, sigX
+  427      2415415    2417903    -          2  resE, resD
+  428      2417984    2421343    -          3  resC, resB, resA
+  429      2422264    2424531    -          3  spmB, spmA, dacB
+  430      2425248    2426586    -          2  spcB, scpA
+  431      2427892    2431343    -          4  ribH, ribA, ribE, ribD
+  432      2438372    2443304    -          7  spoVAF, spoVAEA, spoVAEB, spoVAD, spoVAC, spoVAB, spoVAA
+  433      2443429    2444998    -          3  sigF, spoIIAB, spoIIAA
+  434      2446418    2448430    -          2  pupG, drm
+  435      2448591    2449716    -          2  xerD, yqzK
+  436      2451463    2454206    -          2  mleA, mleN
+  437      2454347    2456808    -          2  aspA, ansA
+  438      2457349    2459066    -          2  yqxK, nudF
+  439      2461621    2464041    -          5  yqkC, yqkB, yqkA, yqjZ, yqjY
+  440      2464227    2465800    -          2  yqjX, yqjW
+  441      2466721    2468162    +          2  yqjV, yqjU
+  442      2468159    2469508    -          2  yqjT, coaA
+  443      2471002    2472746    -          2  yqjQ, yqjP
+  444      2483586    2484731    +          2  yqzJ, yqjG
+  445      2485680    2488751    -          3  yqjE, yqjD, yqjC
+  446      2490574    2491948    -          2  artR, artQ
+  447      2496796    2504664    -          7  bkdB, bkdAB, bkdAA, lpdV, buk, bcd, ptb
+  448      2507298    2514042    -          6  prpB, prpD, mmgD, mmgC, mmgB, mmgA
+  449      2514979    2515907    -          2  yqiI, yqiH
+  450      2520557    2522773    -          2  recN, ahrC
+  451      2522871    2525614    -          2  yqxC, dxs
+  452      2525789    2528266    -          3  ispA, xseB, xseA
+  453      2528404    2529662    -          2  folD, nusB
+  454      2529926    2532197    -          3  yqhY, accC, accB
+  455      2532353    2537613    -          8  spoIIIAH, spoIIIAG, spoIIIAF, spoIIIAE, spoIIIAD, spoIIIAC, spoIIIAB, spoIIIAA
+  456      2538115    2540201    -          3  efp, yqhT, yqhS
+  457      2541051    2542442    +          2  yqhQ, yqhP
+  458      2545410    2549333    -          3  gcvPB, gcvPA, gcvT
+  459      2549775    2552263    +          2  yqhH, yqhG
+  460      2552446    2552988    +          2  sinI, sinR
+  461      2553930    2555247    -          2  sipW, yqxM
+  462      2556137    2558954    -          6  comGG, comGF, comGE, comGD, comGC, comGB
+  463      2565920    2567298    -          2  yqgV, yqgU
+  464      2570606    2571797    -          2  glcK, yqgQ
+  465      2574641    2576187    -          2  yqgM, yqgL
+  466      2576367    2577181    +          2  yqzD, yqzC
+  467      2577210    2580646    -          4  pstBB, pstBA, pstA, pstC
+  468      2593281    2595500    -          2  yqfS, cshB
+  469      2597502    2599266    -          2  yqfO, trmK
+  470      2604121    2605597    -          2  yqfL, ccpN
+  471      2605730    2608649    -          2  glyS, glyQ
+  472      2608946    2609893    -          2  recO, yqzL
+  473      2610041    2611337    -          2  era, cdd
+  474      2611456    2614417    -          3  dgkA, yqfG, yqfF
+  475      2614496    2616948    -          3  phoH, yqfD, yqfC
+  476      2617005    2619779    -          3  yqfB, yqfA, yqeZ
+  477      2619910    2620544    -          2  yqeY, rpsU
+  478      2621677    2625912    -          4  rimO, yqeU, prmA, dnaJ
+  479      2626112    2628534    -          2  dnaK, grpE
+  480      2632882    2634442    -          2  yqxA, spoIIP
+  481      2637543    2640446    -          2  comEC, comEB
+  482      2642101    2647112    -          8  yqeM, yqeL, yqeK, nadD, yqeI, aroE, yqeH, yqeG
+  483      2655322    2657256    -          3  arsC, arsB, yqcK
+  484      2659213    2660464    +          2  rapE, phrE
+  485      2661102    2663290    +          2  yqcG, yqcF
+  486      2663551    2664408    -          2  yqxJ, yqxI
+  487      2664573    2666796    -          3  cwlA, yqxH, yqxG
+  488      2666884    2677463    -         11  yqcE, yqcD, yqcC, yqcB, yqcA, yqbT, yqbS, yqbR, yqbQ, yqbP, yqbO
+  489      2679142    2690313    -         15  yqbM, yqbK, yqzN, yqbJ, yqbI, yqbH, yqbG, yqbF, yqbE, yqbD, yqbC, yqbB, yqbA, yqaT, yqaS
+  490      2693457    2695097    -          3  yqzO, yqaM, yqaL
+  491      2695173    2696989    -          2  yqaK, yqaJ
+  492      2697419    2698242    -          2  yqaH, yqaG
+  493      2698316    2698716    -          2  yqdA, yqaF
+  494      2702688    2705130    -          3  yrkR, yrkQ, yrkP
+  495      2710848    2712242    -          2  yrkI, yrkH
+  496      2720526    2721652    -          2  yrzO, yrdR
+  497      2726885    2728482    -          2  yrdK, brnQ
+  498      2728647    2730226    -          3  azlD, azlC, azlB
+  499      2752802    2755119    +          5  yraG, yraF, adhB, yraE, yraD
+  500      2760233    2762835    -          4  levG, levF, levE, levD
+  501      2769850    2771207    +          2  sigV, rsiV
+  502      2773890    2777654    -          2  cypB, bscR
+  503      2781209    2784652    +          2  yrhE, yrhD
+  504      2785001    2787065    -          2  yrhB, mccA
+  505      2787130    2788487    -          2  mtn, yrrT
+  506      2792218    2795735    -          4  udk, yrrO, yrrN, yrrM
+  507      2797100    2798089    -          3  yrzB, yrrK, yrzL
+  508      2802358    2803929    +          2  glnQ, glnH
+  509      2803990    2805313    +          2  glnM, glnP
+  510      2805348    2806228    -          3  yrzQ, yrzR, yrrD
+  511      2806286    2809327    -          2  yrrC, yrrB
+  512      2809413    2812133    -          3  mnmA, iscS, cymR
+  513      2814743    2817809    -          2  aspS, hisS
+  514      2822901    2825779    -          2  apt, recJ
+  515      2826900    2829448    -          2  secDF, comN
+  516      2832424    2836770    -          6  yajC, tgt, queA, yrzS, ruvB, ruvA
+  517      2836909    2838776    -          2  bofC, csbX
+  518      2841169    2841447    +          2  yrzH, yrzT
+  519      2845955    2849466    -          3  nadA, nadC, nadB
+  520      2849569    2851258    +          2  nifS, nadR
+  521      2851283    2852600    -          2  pheA, pheB
+  522      2852661    2854559    -          2  obgE, spo0B
+  523      2854880    2855826    -          3  rpmA, ysxB, rplU
+  524      2855973    2857626    -          2  spoIVFB, spoIVFA
+  525      2857776    2859264    -          2  minD, minC
+  526      2859317    2861748    -          3  mreD, mreC, mreB
+  527      2861840    2863141    -          2  radC, maf
+  528      2869964    2872749    -          2  ysxE, spoVID
+  529      2872880    2879133    -          6  hemL, hemB, hemD, hemC, hemX, hemA
+  530      2879882    2882790    -          2  engB, lonA
+  531      2888940    2896972    -          7  leuD, leuC, leuB, leuA, ilvC, ilvH, ilvB
+  532      2900020    2901891    -          3  ysnB, ysnA, rph
+  533      2903217    2904483    -          2  racE, ysmB
+  534      2905571    2908737    -          3  sdhB, sdhA, sdhC
+  535      2915365    2918541    -          4  etfA, etfB, ysiB, fadR
+  536      2920517    2925026    -          3  yshE, mutSB, yshC
+  537      2925100    2925897    -          2  yshB, yshA
+  538      2927008    2930472    -          2  pheT, pheS
+  539      2933185    2935928    +          2  glcD, glcF
+  540      2938330    2948875    -          9  abfA, araQ, araP, araN, araM, araL, araD, araB, araA
+  541      2952224    2953349    -          3  rplT, rpmI, infC
+  542      2954492    2955649    -          2  ysbB, ysbA
+  543      2955783    2958267    -          2  lytT, lytS
+  544      2962510    2965566    -          3  ytxB, dnaI, dnaB
+  545      2968824    2970880    +          2  ytbD, ytbE
+  546      2970922    2972163    -          2  coaE, ytaF
+  547      2972329    2975824    -          2  mutM, polA
+  548      2976068    2978522    -          2  phoR, phoP
+  549      2978734    2980987    -          2  mdh, icd
+  550      2984788    2987547    -          2  pyk, pfkA
+  551      2987731    2989565    -          2  accA, accD
+  552      2994756    2995597    +          2  ytrH, ytrI
+  553      2998796    3008785    -         12  ytnM, ytnL, rbfK, ytnJ, ytnI, ytmO, tcyN, tcyM, tcyL, tcyK, tcyJ, ytmI
+  554      3011751    3014344    -          2  argH, argG
+  555      3018309    3019458    -          2  ytfJ, ytfI
+  556      3019533    3021047    -          2  yteJ, sppA
+  557      3022068    3025266    -          2  ytcJ, ytcI
+  558      3025748    3028102    -          2  ytbJ, iscS
+  559      3038060    3039931    -          2  ytzK, acsA
+  560      3040092    3042555    +          3  acuA, acuB, acuC
+  561      3042566    3044102    -          2  ytxE, ytxD
+  562      3046757    3048015    -          3  ytxJ, ytxH, ytxG
+  563      3052743    3054511    -          3  ytpR, ytpQ, ytpP
+  564      3061651    3066302    -          4  amyX, ytlR, ytlQ, ytlP
+  565      3070246    3072110    -          2  ythQ, ythP
+  566      3078643    3083225    -          5  yteU, yteT, yteS, yteR, yteP
+  567      3085800    3088181    -          2  ytcQ, ytcP
+  568      3090482    3095455    -          5  bioB, bioD, bioF, bioA, bioW
+  569      3096782    3102179    +          5  msmR, msmE, amyD, amyC, melA
+  570      3109397    3112088    -          2  bceB, bceA
+  571      3112190    3113882    -          2  bceS, bceR
+  572      3113979    3119239    -          6  ytrF, ytrE, ytrD, ytrC, ytrB, ytrA
+  573      3119999    3121548    +          2  ytqA, ytqB
+  574      3121538    3123441    -          2  ytpB, ytpA
+  575      3132370    3134956    +          3  ytlA, ytlC, ytlD
+  576      3139431    3141846    +          2  ythA, ythB
+  577      3142077    3145958    -          4  mntD, mntC, mntB, mntA
+  578      3146238    3148810    -          2  menC, menE
+  579      3148901    3153717    -          4  menB, ytxM, menD, menF
+  580      3155725    3159184    +          3  ytcA, ytcB, ytcC
+  581      3159258    3161894    -          3  ytxO, cotS, cotSA
+  582      3163735    3171646    -          5  glgP, glgA, glgD, glgC, glgB
+  583      3179926    3182539    -          3  yuaI, yuaG, yuaF
+  584      3183867    3186564    -          2  gbsB, gbsA
+  585      3188414    3190426    +          2  ktrA, ktrB
+  586      3197933    3201803    -          4  yulE, yulD, yulC, yulB
+  587      3216163    3218478    -          3  yugS, yugP, yuzI
+  588      3218525    3219840    +          2  mstX, yugO
+  589      3225772    3227433    -          2  alaT, yugG
+  590      3230067    3231785    +          2  kinB, kapB
+  591      3233911    3236219    +          2  pbpD, yuxK
+  592      3237157    3239458    +          2  yufL, yufM
+  593      3241085    3244616    +          3  yufO, yufP, yufQ
+  594      3246598    3252366    +          7  mrpA, mrpB, mrpC, mrpD, mrpE, mrpF, mrpG
+  595      3252405    3253448    -          2  yuxO, comA
+  596      3253529    3256907    -          3  comP, comX, comQ
+  597      3259403    3261442    -          2  yueK, pncA
+  598      3266200    3274401    -          3  yueC, yueB, yukB
+  599      3274462    3276071    -          2  yukC, yukD
+  600      3280294    3292296    -          6  ybdZ, dhbF, dhbB, dhbE, dhbC, dhbA
+  601      3304096    3305261    -          2  paiB, paiA
+  602      3312844    3316129    -          3  thrB, thrC, hom
+  603      3318029    3319561    -          3  yutF, yutE, yutD
+  604      3323670    3327150    -          4  yunD, yunE, yunF, yunG
+  605      3330502    3334990    +          4  pucJ, pucK, pucL, pucM
+  606      3335751    3340937    -          5  pucE, pucD, pucC, pucB, pucA
+  607      3341166    3343671    -          2  pucG, yurH
+  608      3347051    3349703    -          3  frlD, frlM, frlN
+  609      3354066    3354487    +          2  sspG, yurS
+  610      3355593    3360780    -          5  sufB, iscU, sufS, sufD, sufC
+  611      3361767    3364291    -          3  metN, metP, metQ
+  612      3365069    3366067    -          3  yusE, yusF, yusG
+  613      3367040    3372472    -          3  fadE, yusK, fadN
+  614      3373743    3374333    +          2  yuzM, yusN
+  615      3374492    3376581    +          2  yusO, yusP
+  616      3376617    3377759    -          3  yusQ, yusR, yusS
+  617      3378800    3379939    -          2  yusU, yusV
+  618      3385724    3387753    +          2  cssR, cssS
+  619      3390782    3394414    +          3  gerAA, gerAB, gerAC
+  620      3394422    3397745    -          4  liaR, liaS, liaF, liaG
+  621      3397846    3398930    -          2  liaH, liaI
+  622      3400537    3404437    -          4  yvqK, yvrA, yvrB, yvrC
+  623      3406614    3409066    -          2  yvrG, yvrH
+  624      3409219    3409992    -          2  rsoA, sigO
+  625      3412128    3415216    -          3  yvrN, yvrO, yvrP
+  626      3415387    3418376    -          3  fhuC, fhuG, fhuB
+  627      3425272    3426718    +          2  yvgL, yvgM
+  628      3430598    3434156    -          2  yvgQ, cysJ
+  629      3437644    3438733    -          2  bdbC, bdbD
+  630      3448295    3449621    -          3  yvaD, yvaE, yvaF
+  631      3451863    3454967    -          2  rnr, yvaK
+  632      3456667    3457523    +          2  rghRA, rghRB
+  633      3459806    3463250    -          4  opuBD, opuBC, opuBB, opuBA
+  634      3464289    3466387    +          3  sdpA, sdpB, spbC
+  635      3466434    3467326    -          2  sdpI, sdpR
+  636      3467546    3471002    -          4  opuCD, opuCC, opuCB, opuCA
+  637      3476555    3481381    -          4  eno, pgm, tpiA, pgk
+  638      3481698    3483774    -          2  gapA, cggR
+  639      3492797    3495701    -          3  yvbY, yvfW, yvfV
+  640      3495876    3497481    -          2  yvfU, yvfT
+  641      3497614    3499257    -          2  yvfS, yvfR
+  642      3499541    3501597    +          2  rsbQ, rsbP
+  643      3503020    3508518    -          4  ganA, ganQ, ganP, cycB
+  644      3514115    3528203    -         13  epsO, epsN, epsM, epsL, epsK, epsJ, epsI, epsH, epsG, epsF, epsE, epsD, epsC
+  645      3528462    3529855    -          2  epsB, epsA
+  646      3532325    3533120    -          2  padC, yveG
+  647      3533419    3535473    -          2  racX, pbpE
+  648      3541488    3542143    +          2  yvdS, yvdR
+  649      3546873    3555806    -          7  pgcM, malL, yvdK, yvdJ, mdxG, mdxF, mdxE
+  650      3559979    3562183    -          2  yvdB, yvdA
+  651      3563581    3566275    -          2  yvcS, yvcR
+  652      3566358    3568135    -          2  yvcQ, yvcP
+  653      3568527    3572889    -          6  yvcN, crh, whiA, yvcK, yvcJ, yvcI
+  654      3579679    3582690    -          3  yvzA, yvcB, yvcA
+  655      3582936    3589360    -          8  hisI, hisF, hisA, hisH, hisB, hisD, hisG, hisZ
+  656      3591288    3595174    -          5  yvoF, hprP, yvoD, lgt, hprK
+  657      3595356    3598020    +          3  nagA, nagBA, yvoA
+  658      3602588    3604567    -          2  cypX, yvmC
+  659      3604993    3606734    +          2  yvmB, yvmA
+  660      3606762    3608773    -          4  yvlD, yvlC, yvlB, yvlA
+  661      3610064    3614930    -          2  uvrA, uvrB
+  662      3618364    3620298    +          2  yvkB, yvkA
+  663      3623938    3625507    -          2  ftsX, ftsE
+  664      3625741    3626973    -          2  cccB, yvjA
+  665      3631763    3634754    -          5  yvzG, fliT, fliS, fliD, yvyC
+  666      3636046    3640551    -          7  csrA, yviF, yviE, flgL, flgK, yvyG, flgM
+  667      3641125    3642107    -          2  comFC, comFB
+  668      3646753    3648581    +          2  yvyE, yvhJ
+  669      3649875    3654054    -          4  tuaH, tuaG, tuaF, tuaE
+  670      3655586    3658203    -          2  tuaC, tuaB
+  671      3659119    3663097    -          3  lytC, lytB, lytA
+  672      3673564    3675994    -          2  tagH, tagG
+  673      3676159    3680420    -          2  tagF, tagE
+  674      3681370    3683318    +          2  tagA, tagB
+  675      3688812    3692496    +          3  gerBA, gerBB, gerBC
+  676      3697639    3700627    -          4  pgsE, pgsA, pgsC, pgsB
+  677      3701411    3707062    +          6  rbsR, rbsK, rbsD, rbsA, rbsC, rbsB
+  678      3720925    3722541    +          3  ywrC, ywrB, ywrA
+  679      3722568    3723331    -          2  ywqO, ywqN
+  680      3724420    3728119    -          5  ywqL, ywqK, ywqJ, ywqI, ywqH
+  681      3731822    3733271    -          2  ptkA, ywqC
+  682      3733852    3738217    +          2  ywqB, ywqA
+  683      3738343    3739982    -          2  ywpJ, glcR
+  684      3745436    3747091    -          2  flhP, flhO
+  685      3748421    3748827    -          2  spoIIID, usd
+  686      3749052    3750677    +          2  ywoH, ywoG
+  687      3753933    3755860    -          2  ywoD, ywoC
+  688      3756790    3758366    +          2  amtB, glnK
+  689      3760694    3761700    +          2  ywnH, ywnG
+  690      3766714    3769108    -          3  ureC, ureB, ureA
+  691      3772325    3774154    -          2  moaA, fdhD
+  692      3777949    3780033    -          2  murAA, ywmB
+  693      3781069    3783801    -          3  atpC, atpD, atpG
+  694      3783878    3786457    -          3  atpA, atpH, atpF
+  695      3786620    3788003    -          3  atpE, atpB, atpI
+  696      3790644    3791648    -          2  ywlG, ywlF
+  697      3796217    3798155    -          2  prmC, prfA
+  698      3805090    3807375    -          2  glpX, murAB
+  699      3813246    3816499    -          2  acdA, fadF
+  700      3816654    3818825    +          2  clsB, uvsE
+  701      3819220    3821481    -          2  ywjB, ywjA
+  702      3823558    3829945    -          4  narI, narJ, narH, narG
+  703      3833650    3835745    -          2  argS, ywiB
+  704      3836058    3842995    +          9  sboA, sboX, albA, albB, albC, albD, albE, albF, albG
+  705      3843001    3845771    -          2  ywhL, ywhK
+  706      3846001    3847249    +          2  rapF, phrF
+  707      3852186    3853377    -          2  ywhD, ywhC
+  708      3857017    3858887    -          2  mmr, ywgB
+  709      3858999    3860836    -          2  ywgA, ywfO
+  710      3863415    3865208    -          2  ywfL, cysL
+  711      3868287    3874180    -          6  ywfG, bacE, bacD, bacC, bacB, bacA
+  712      3875780    3878892    -          2  rocC, rocB
+  713      3882979    3893121    -         11  spsL, spsK, spsJ, spsI, spsG, spsF, spsE, spsD, spsC, spsB, spsA
+  714      3894463    3896161    -          2  ywdJ, ywdI
+  715      3897685    3899182    -          2  ung, ywdF
+  716      3899272    3900819    -          3  ywdE, ywdD, ywzG
+  717      3902210    3905031    -          2  sacA, sacP
+  718      3906142    3907314    -          2  sacT, ywcI
+  719      3914315    3918261    -          4  qoxD, qoxC, qoxB, qoxA
+  720      3919093    3921810    -          2  galT, galK
+  721      3921891    3922963    -          2  ywcD, ywcC
+  722      3923920    3925766    +          2  ywcB, ywcA
+  723      3926682    3930550    -          3  efeN, efeM, efeU
+  724      3930707    3933103    -          3  thiE, thiM, ywbI
+  725      3933209    3934254    +          2  ywbH, lrgB
+  726      3934358    3935788    +          2  ywbF, ywbE
+  727      3952108    3956401    +          5  ywzH, dltA, dltB, dltC, dltD
+  728      3958516    3961874    -          4  licH, licA, licC, licB
+  729      3964091    3964868    -          2  yxzF, yxlJ
+  730      3967944    3970848    -          6  yxlG, yxlF, yxlE, yxlD, yxlC, sigY
+  731      3973364    3979197    -          4  cydD, cydC, cydB, cydA
+  732      3992671    3996307    +          4  yxjN, yxjM, yxjL, pepT
+  733      4000539    4004134    -          4  yxjF, scoB, scoA, yxjC
+  734      4007803    4010203    -          2  yxiS, katE
+  735      4019005    4020907    -          5  yxzJ, yxiK, yxiJ, yxiI, yxzG
+  736      4021896    4022728    -          2  yxzC, yxiF
+  737      4032346    4035607    -          2  bglH, bglP
+  738      4035990    4039159    -          5  yxxE, yxxD, yxiD, yxiC, yxiB
+  739      4042051    4047462    +          4  hutH, hutU, hutI, hutG
+  740      4049009    4051521    -          2  pdp, nupC
+  741      4055536    4062143    -          7  yxeQ, yxeP, yxeO, yxeN, yxeM, yxeL, yxeK
+  742      4062329    4063529    -          2  yxeJ, yxeI
+  743      4063684    4065508    -          3  yxeH, yxeG, yxeF
+  744      4068189    4071166    -          3  yxeA, yxdM, yxdL
+  745      4071310    4072973    -          2  yxdK, yxdJ
+  746      4073081    4074810    -          2  iolJ, iolI
+  747      4074896    4082845    -          7  iolH, iolG, iolF, iolE, iolD, iolC, iolB
+  748      4086802    4087764    +          2  yxcE, yxcD
+  749      4097416    4102365    +          5  yxbB, aslA, yxnB, asnH, yxaM
+  750      4109843    4110909    +          2  yxzK, yxaC
+  751      4113417    4118486    +          4  gntR, gntK, gntP, gntZ
+  752      4118950    4121056    +          2  ahpC, ahpF
+  753      4121166    4122849    -          2  bglA, yyzE
+  754      4123193    4124089    +          2  yydK, yyzN
+  755      4124220    4125592    -          2  yydJ, yydI
+  756      4125742    4127440    -          2  yydH, yydG
+  757      4130578    4134174    -          3  yydD, yydC, yydB
+  758      4137362    4139537    -          3  yycQ, yycP, yycO
+  759      4140260    4141474    +          2  rapG, phrG
+  760      4148851    4154403    -          5  yycJ, yycI, walH, walK, walR
+  761      4163197    4166588    -          3  rplI, yybT, yybS
+  762      4173665    4176525    +          4  yybM, yybL, yybK, yybJ
+  763      4180564    4181899    +          2  yybE, yybD
+  764      4184017    4185065    +          2  yyaT, yyaS
+  765      4187681    4189153    -          2  tetB, tetL
+  766      4189796    4191126    +          2  yyaN, yyaM
+  767      4195778    4196730    -          2  maa, yyaH
+  768      4198603    4199732    -          3  rpsR, ssbA, rpsF
+  769      4205556    4207158    -          2  parB, parA
+  770      4208870    4212889    -          3  gidB, gidA, trmE
+  771      4213200    4214608    -          2  jag, spoIIIJ
+
+================================================================================
+  GENOME : Escherichia coli str. K-12 substr. MG1655 chromosome, complete genome
+================================================================================
+
+  --- Summary Statistics ---
+  Total genes (annotated)       : 4146
+  Total operons predicted       : 784
+  Genes in operons              : 2270  (54.75% of all genes)
+  Singleton genes (no operon)   : 1876  (45.25% of all genes)
+
+  Operon size (number of genes):
+    Minimum   : 2
+    Maximum   : 15
+    Mean      : 2.9
+    Median    : 2.0
+
+  Strand breakdown:
+    Forward (+) operons : 381
+    Reverse (-) operons : 403
+
+  Largest operon (15 genes):
+    Location : 2289380 - 2301519  [-]
+    Genes    : ccmH, ccmG, ccmF, ccmE, ccmD, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napD, napF
+
+  Longest genomic span operon (13582 bp):
+    Location : 2599223 - 2612804  [+]
+    Genes    : hyfA, hyfB, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB
+
+  Operon size distribution:
+      Size   Count  Bar
+    ------  ------  ----------------------------------------
+         2     470  ||||||||||||||||||||||||||||||||||||||||
+         3     143  ||||||||||||||||||||||||||||||||||||||||
+         4      79  ||||||||||||||||||||||||||||||||||||||||
+         5      39  |||||||||||||||||||||||||||||||||||||||
+         6      30  ||||||||||||||||||||||||||||||
+         7       7  |||||||
+         8       6  ||||||
+         9       1  |
+        10       2  ||
+        11       3  |||
+        12       3  |||
+        15       1  |
+
+  Detailed operon list:
+  #          Start       Stop  Strand  NGenes  Gene IDs
+  --------------------------------------------------------------------------------
+  1            337       5020    +          3  thrA, thrB, thrC
+  2          10643      11786    -          2  yaaW, yaaI
+  3          16751      16903    -          2  mokC, hokC
+  4          19811      20508    -          2  insB, insA
+  5          21181      25701    +          4  yaaY, ribF, ileS, lspA
+  6          25826      27227    +          2  fkpB, ispH
+  7          29651      34038    +          2  carA, carB
+  8          34781      36162    -          2  caiE, caiD
+  9          39244      41931    -          2  caiA, caiT
+  10         42403      44129    +          2  fixA, fixB
+  11         44180      45750    +          2  fixC, fixX
+  12         47246      49631    +          2  kefF, kefC
+  13         50380      54702    -          5  apaH, apaG, rsmA, pdxA, surA
+  14         59687      63264    -          2  rluA, rapA
+  15         66835      70048    -          2  araA, araB
+  16         72229      75480    -          3  thiQ, thiP, thiB
+  17         78848      83529    -          4  leuD, leuC, leuB, leuA
+  18         85630      87848    +          2  ilvI, ilvH
+  19         89634     100711    +         10  mraZ, rsmH, ftsL, ftsI, murE, murF, mraY, murD, ftsW, murG
+  20        100765     105244    +          4  murC, ddlB, ftsQ, ftsA
+  21        111649     113219    -          3  yacG, yacF, coaE
+  22        114522     117549    -          3  hofC, hofB, ppdD
+  23        118733     120135    +          2  ampD, ampE
+  24        123017     127587    +          2  aceE, aceF
+  25        134788     136464    -          2  speD, speE
+  26        142779     144472    +          2  yadG, yadH
+  27        147944     149601    -          2  panC, panB
+  28        149715     156201    -          6  yadC, yadK, yadL, yadM, htrE, ecpD
+  29        157253     159126    -          2  folK, pcnB
+  30        159186     160604    -          2  gluQ, dksA
+  31        160782     162031    -          2  sfsA, ligT
+  32        169778     173444    +          3  fhuC, fhuD, fhuB
+  33        177001     179153    -          3  yadS, btuF, mtn
+  34        185123     188650    -          2  dapD, glnD
+  35        194903     200360    +          4  ispU, cdsA, rseP, bamA
+  36        200482     201996    +          2  skp, lpxD
+  37        202101     209580    +          6  fabZ, lpxA, lpxB, rnhB, dnaE, accA
+  38        213678     214125    -          2  rof, yaeP
+  39        214291     215979    +          3  yaeQ, yaeJ, nlpE
+  40        218887     219995    -          2  yaeB, rcsF
+  41        220113     222645    -          3  metQ, metI, metN
+  42        231122     232549    +          2  yafD, yafE
+  43        245961     246502    -          2  yafQ, dinJ
+  44        252005     253161    +          3  yafN, yafO, yafP
+  45        259612     261980    +          2  proB, proA
+  46        262552     264430    -          5  ykfI, yafW, ykfH, ykfG, yafX
+  47        264844     265777    -          2  ykfB, yafY
+  48        274549     276871    +          2  mmuP, mmuM
+  49        278402     279099    -          2  insB, insA
+  50        281502     284392    +          2  yagE, yagF
+  51        284619     287623    +          2  yagG, yagH
+  52        289873     290570    -          2  insB, insA
+  53        292444     294023    -          2  yagL, yagM
+  54        296994     301797    -          4  paoD, paoC, paoB, paoA
+  55        303719     309250    -          4  yagV, yagW, yagX, matC
+  56        311598     312001    -          2  ykgO, ykgM
+  57        314515     315677    +          2  insE, insF
+  58        316950     317791    -          2  ykgB, ykgI
+  59        320832     323677    +          3  ykgE, ykgF, ykgG
+  60        324801     328558    -          3  betA, betB, betI
+  61        334504     338967    +          4  yahD, yahE, yahF, yahG
+  62        339389     341731    +          2  yahI, yahJ
+  63        349236     353816    +          3  prpC, prpD, prpE
+  64        354146     356678    +          2  codB, codA
+  65        358023     360370    +          3  cynT, cynS, cynX
+  66        367835     374105    +          6  mhpA, mhpB, mhpC, mhpD, mhpF, mhpE
+  67        377686     379105    -          2  frmA, frmR
+  68        380575     381803    +          2  insC, insD
+  69        384456     387870    +          4  tauA, tauB, tauC, tauD
+  70        390963     392125    -          2  insF, insE
+  71        395863     398190    +          2  sbmA, yaiW
+  72        405629     406394    +          2  aroL, yaiA
+  73        411831     416176    -          2  sbcC, sbcD
+  74        425361     429700    +          4  tgt, yajC, secD, secF
+  75        432226     433782    +          2  nrdR, ribD
+  76        433871     434780    +          2  ribE, nusB
+  77        434858     436331    +          2  thiL, pgpA
+  78        437539     440567    -          3  dxs, ispA, xseB
+  79        442275     443739    -          2  yajL, panE
+  80        446039     450834    -          5  cyoE, cyoD, cyoC, cyoB, cyoA
+  81        451294     453391    -          2  ampG, yajG
+  82        467607     471641    +          3  ybaO, mdlA, mdlB
+  83        471822     473476    +          2  glnK, amtB
+  84        479314     479932    -          2  hha, tomB
+  85        480478     484843    -          2  acrB, acrA
+  86        489334     490036    -          2  ybaM, priC
+  87        493300     494234    +          2  ybaB, recR
+  88        510865     513092    +          2  ybaS, ybaT
+  89        513625     514997    -          2  ybbJ, qmcA
+  90        515143     516586    +          2  ybbL, ybbM
+  91        517564     518989    -          2  ybbO, tesA
+  92        518957     522054    +          2  ybbA, ybbP
+  93        522485     527173    +          2  rhsD, ybbC
+  94        533140     535710    +          2  gcl, hyi
+  95        539789     542257    +          2  ybbY, glxK
+  96        542485     545587    -          3  ylbA, allC, allD
+  97        548850     550555    +          2  ylbF, ybcF
+  98        550750     552323    -          2  purK, purE
+  99        552441     553660    -          2  lpxH, ppiB
+  100       555884     556964    -          2  ybcJ, folD
+  101       558197     563068    +          4  sfmC, sfmD, sfmH, sfmF
+  102       566065     567227    +          2  insE, insF
+  103       570116     571474    +          2  ybcL, ybcM
+  104       571591     573093    +          6  ylcH, ybcN, ninE, ybcO, rusA, ylcG
+  105       576621     577732    +          4  essD, rrrD, rzpD, rzoD
+  106       586314     592401    -          3  ybcH, nfrA, nfrB
+  107       592551     594666    -          2  cusS, cusR
+  108       596354     601080    +          3  cusF, cusB, cusA
+  109       612038     617261    +          3  fes, ybdZ, entF
+  110       618607     621412    -          3  fepC, fepG, fepD
+  111       624108     628936    +          5  entC, entE, entB, entA, entH
+  112       633970     635792    -          2  ybdM, ybdN
+  113       645854     651079    -          6  citG, citX, citF, citE, citD, citC
+  114       651458     653765    +          2  dpiB, dpiA
+  115       663325     668259    -          5  rlpA, mrdB, mrdA, rlmH, ybeB
+  116       668519     674006    -          5  cobC, nadD, holA, lptE, leuS
+  117       675934     678065    +          2  ybeR, djlB
+  118       678731     680886    +          2  ybeU, djlC
+  119       683753     685892    -          3  gltL, gltK, gltJ
+  120       688566     691007    -          2  lnt, ybeX
+  121       691097     692601    -          2  ybeY, ybeZ
+  122       698797     701974    -          3  nagD, nagC, nagA
+  123       707557     709339    +          2  chiP, chiQ
+  124       709423     709948    -          2  fur, uof
+  125       712210     714421    +          2  seqA, pgm
+  126       716169     719683    -          2  potE, speF
+  127       720279     728044    -          6  kdpE, kdpD, kdpC, kdpB, kdpA, kdpF
+  128       728806     733325    +          2  rhsC, ybfB
+  129       738224     740148    +          2  ybgA, phr
+  130       742050     745949    +          5  ybgI, ybgJ, ybgK, ybgL, nei
+  131       747144     751392    -          3  ybgO, ybgP, ybgQ
+  132       754400     757628    +          4  sdhC, sdhD, sdhA, sdhB
+  133       757929     761962    +          2  sucA, sucB
+  134       762237     764272    +          2  sucC, sucD
+  135       765207     769834    +          2  mngA, mngB
+  136       770681     773825    +          4  cydA, cydB, ybgT, ybgE
+  137       773975     775500    +          3  ybgC, tolQ, tolR
+  138       776963     779612    +          3  tolB, pal, ybgF
+  139       781308     783108    +          2  nadA, pnuC
+  140       787020     791278    -          4  galM, galK, galT, galE
+  141       794312     796835    +          3  modA, modB, modC
+  142       808567     812170    +          4  bioB, bioF, bioC, bioD
+  143       816267     818970    +          5  moaA, moaB, moaC, moaD, moaE
+  144       820765     823720    -          3  ybhN, ybhO, ybhP
+  145       824225     829866    -          5  ybhR, ybhS, ybhF, ybhG, ybiH
+  146       832293     835433    +          2  dinG, ybiB
+  147       837753     840754    -          2  ybiX, fiu
+  148       844964     846342    -          2  glnQ, glnP
+  149       852406     853988    +          2  mntR, ybiR
+  150       859397     862734    -          2  ybiW, ybiY
+  151       863603     865587    -          2  moeB, moeA
+  152       865791     872024    +          5  iaaA, gsiA, gsiB, gsiC, gsiD
+  153       872202     875886    +          2  yliE, yliF
+  154       884539     886562    -          2  ybjI, ybjJ
+  155       890136     891129    +          2  ybjC, nfsA
+  156       894214     897152    +          3  potG, potH, potI
+  157       897212     898868    +          2  ybjO, rlmD
+  158       900089     902957    -          4  artM, artQ, artI, artP
+  159       903816     904966    +          2  ybjQ, amiD
+  160       906075     910272    -          3  ybjT, ltaE, poxB
+  161       910405     913037    -          2  hcr, hcp
+  162       918458     921516    +          2  macA, macB
+  163       922136     924763    +          2  clpS, clpA
+  164       925951     930185    -          3  aat, cydC, cydD
+  165       936595     938560    +          2  lolA, rarA
+  166       940182     944119    +          3  dmsA, dmsB, dmsC
+  167       963543     969844    +          4  ycaI, msbA, lpxK, ycaQ
+  168       969896     970821    +          2  ycaR, kdsB
+  169       972760     980009    +          4  smtA, mukF, mukE, mukB
+  170       982298     983520    +          2  ycbK, ycbL
+  171       992500     996735    -          5  ssuB, ssuC, ssuD, ssuA, ssuE
+  172       997713    1003880    +          6  elfD, elfC, elfG, ycbU, ycbV, ycbF
+  173      1007067    1011094    +          2  rlmL, uup
+  174      1011224    1014682    +          3  pqiA, pqiB, ymbA
+  175      1020953    1023571    -          2  yccS, yccF
+  176      1031362    1036829    +          6  hyaA, hyaB, hyaC, hyaD, hyaE, hyaF
+  177      1036963    1039760    +          3  appC, appB, yccB
+  178      1041253    1048555    -          6  etk, etp, gfcE, gfcD, gfcC, gfcB
+  179      1049056    1049753    +          2  insA, insB
+  180      1051070    1051463    +          2  ymcE, gnsA
+  181      1057307    1061621    +          3  torC, torA, torD
+  182      1061773    1062998    -          2  cbpM, cbpA
+  183      1066087    1066931    -          2  yccJ, wrbA
+  184      1067734    1073234    -          7  rutG, rutF, rutE, rutD, rutC, rutB, rutA
+  185      1081466    1083870    +          2  efeO, efeB
+  186      1085329    1091512    -          4  pgaD, pgaC, pgaB, pgaA
+  187      1093498    1094660    -          2  insF, insE
+  188      1098102    1099417    +          2  ycdX, ycdY
+  189      1100074    1102419    -          4  csgG, csgF, csgE, csgD
+  190      1103174    1104125    +          2  csgB, csgA
+  191      1105043    1106999    +          2  ymdB, ymdC
+  192      1108558    1112629    +          2  opgG, opgH
+  193      1117124    1118269    -          2  yceI, yceJ
+  194      1118530    1119809    -          2  yceO, solA
+  195      1124785    1126952    +          3  rimJ, yceH, yceM
+  196      1128637    1129351    -          2  flgN, flgM
+  197      1130241    1133780    +          5  flgB, flgC, flgD, flgE, flgF
+  198      1134787    1137535    +          3  flgH, flgI, flgJ
+  199      1137601    1140209    +          2  flgK, flgL
+  200      1147982    1150627    +          3  fabH, fabD, fabG
+  201      1152523    1156797    +          5  pabC, yceG, tmk, holB, ycfH
+  202      1161108    1164908    +          6  hinT, ycfL, lpoB, thiK, nagZ, ycfP
+  203      1174650    1178727    +          4  lolC, lolD, lolE, nagK
+  204      1179702    1180948    -          2  ycfZ, ymfA
+  205      1181006    1184817    -          4  potD, potC, potB, potA
+  206      1187539    1189670    -          2  phoQ, phoP
+  207      1189839    1192996    -          3  purB, hflD, mnmA
+  208      1193050    1194174    -          2  nudJ, rluE
+  209      1196090    1197460    -          2  ymfD, ymfE
+  210      1198902    1200255    -          2  intE, xisE
+  211      1202247    1203383    +          3  croE, ymfL, ymfM
+  212      1206136    1207768    +          3  ymfQ, stfP, tfaP
+  213      1215012    1215858    +          3  ycgZ, ymgA, ariR
+  214      1221528    1222386    -          3  ymgD, ymgG, ymgI
+  215      1223502    1225303    -          3  minE, minD, minC
+  216      1229990    1231677    +          2  umuD, umuC
+  217      1236794    1239172    +          2  dadA, dadX
+  218      1246919    1250061    -          3  dhaM, dhaL, dhaK
+  219      1261249    1262723    -          2  ispE, lolB
+  220      1262937    1268242    +          6  hemA, prfA, prmC, ychQ, ychA, kdsA
+  221      1274402    1276841    -          2  narL, narX
+  222      1279087    1285749    +          4  narG, narH, narJ, narI
+  223      1287005    1288355    -          2  purU, ychJ
+  224      1300923    1304792    +          4  oppB, oppC, oppD, oppF
+  225      1304845    1306669    -          2  yciU, cls
+  226      1310375    1311687    -          2  yciB, yciC
+  227      1312742    1313794    -          2  yciE, yciF
+  228      1314440    1320970    -          5  trpA, trpB, trpC, trpD, trpE
+  229      1321244    1324665    +          3  yciV, yciO, yciQ
+  230      1325791    1327136    -          2  btuR, yciK
+  231      1333184    1333482    +          2  ymiA, yciX
+  232      1338267    1339751    +          2  yciS, yciM
+  233      1339945    1341008    +          2  pyrF, yciH
+  234      1349852    1355134    -          5  sapF, sapD, sapC, sapB, sapA
+  235      1359144    1360492    +          2  puuD, puuR
+  236      1360767    1364839    +          3  puuC, puuB, puuE
+  237      1366825    1367638    +          3  pspB, pspC, pspD
+  238      1368240    1378831    +          9  ycjM, ycjN, ycjO, ycjP, ycjQ, ycjR, ycjS, ycjT, ycjU
+  239      1382141    1384596    +          2  ycjX, ycjF
+  240      1397745    1402589    -          4  ogt, abgT, abgB, abgA
+  241      1410024    1411476    -          2  intR, ydaQ
+  242      1411555    1411951    -          2  ydaC, ralR
+  243      1412008    1415410    -          2  recT, recE
+  244      1415862    1416253    -          2  ydaE, kilR
+  245      1417180    1417480    -          2  ydaF, ydaG
+  246      1418389    1420753    +          4  ydaS, ydaT, ydaU, ydaV
+  247      1427073    1431010    +          2  stfR, tfaR
+  248      1441075    1444230    +          3  ydbH, ynbE, ydbL
+  249      1451951    1461462    +         11  paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK
+  250      1461563    1463085    +          2  paaX, paaY
+  251      1465945    1467173    -          2  insD, insC
+  252      1475645    1480225    +          4  ynbA, ynbB, ynbC, ynbD
+  253      1489946    1490153    -          2  hokB, mokB
+  254      1498597    1500179    +          2  tehA, tehB
+  255      1507310    1507948    +          2  hicA, hicB
+  256      1509678    1515026    +          5  ydcS, ydcT, ydcU, ydcV, prr
+  257      1515906    1516870    -          2  ydcZ, yncA
+  258      1533961    1540614    -          4  narV, narW, narY, narZ
+  259      1545425    1550015    +          3  fdnG, fdnH, fdnI
+  260      1555136    1561100    -          6  ddpF, ddpD, ddpC, ddpB, ddpA, ddpX
+  261      1561358    1565164    -          2  dosP, dosC
+  262      1570431    1577366    -          3  pqqL, yddB, yddA
+  263      1585817    1586863    -          2  ydeR, ydeS
+  264      1588878    1590466    -          2  hipA, hipB
+  265      1599514    1605313    +          6  lsrA, lsrC, lsrD, lsrB, lsrF, lsrG
+  266      1609990    1611275    -          2  yneG, yneH
+  267      1617144    1618231    +          3  marR, marA, marB
+  268      1632334    1633871    -          2  tfaQ, stfQ
+  269      1637054    1637358    -          2  rzpQ, rzoQ
+  270      1637548    1638609    -          3  rrrQ, ydfR, essQ
+  271      1640513    1642328    -          2  quuQ, ydfU
+  272      1643370    1643896    -          2  relE, relB
+  273      1646532    1647065    +          3  ydfA, ydfB, ydfC
+  274      1647633    1648009    +          2  dicB, ydfD
+  275      1650920    1653165    -          2  rspB, rspA
+  276      1653832    1654768    +          2  ynfB, speG
+  277      1658580    1663144    +          4  ynfF, ynfG, ynfH, dmsD
+  278      1670844    1671525    -          2  mdtI, mdtJ
+  279      1672996    1675927    -          2  pntB, pntA
+  280      1677581    1679722    +          2  ydgI, folM
+  281      1680183    1682207    +          2  rstA, rstB
+  282      1689610    1694095    -          3  uidC, uidB, uidA
+  283      1697379    1700153    +          2  malX, malY
+  284      1703791    1710182    +          7  rsxA, rsxB, rsxC, rsxD, rsxG, rsxE, nth
+  285      1719049    1722157    +          3  ydhI, ydhJ, ydhK
+  286      1722760    1723944    -          2  ydhF, ydhL
+  287      1724047    1725780    +          2  nemR, nemA
+  288      1746771    1749037    -          3  ydhT, ydhU, ydhX
+  289      1749101    1752501    -          3  ydhW, ydhV, ydhY
+  290      1756898    1762410    -          6  sufE, sufS, sufD, sufC, sufB, sufA
+  291      1763246    1766709    -          2  ydiI, ydiJ
+  292      1770536    1773468    +          3  ydiN, ydiB, aroD
+  293      1773611    1776371    +          2  ydiF, ydiO
+  294      1777641    1779363    +          2  ydiQ, ydiR
+  295      1779419    1780998    +          2  ydiS, ydiT
+  296      1790833    1792133    -          2  btuD, btuE
+  297      1793277    1796966    -          3  ihfA, pheT, pheS
+  298      1798120    1800594    -          2  infC, thrS
+  299      1814410    1816524    -          2  chbG, chbF
+  300      1816629    1817829    -          2  chbR, chbA
+  301      1823979    1830006    -          5  astE, astB, astD, astA, astC
+  302      1831425    1837424    +          7  ydjX, ydjY, ydjZ, ynjA, ynjB, ynjC, ynjD
+  303      1843023    1846032    -          2  topB, selD
+  304      1848884    1850552    +          2  ansA, pncA
+  305      1853015    1859356    -          6  ydjG, ydjH, ydjI, ydjJ, ydjK, ydjL
+  306      1859726    1860453    -          2  yeaC, msrB
+  307      1870065    1872101    +          2  yeaJ, yeaK
+  308      1875739    1876972    +          3  yeaP, yoaK, yoaJ
+  309      1877427    1877972    -          2  yoaG, yeaR
+  310      1881212    1883813    +          2  yeaV, yeaW
+  311      1887975    1889291    -          2  yeaY, yeaZ
+  312      1892829    1894772    +          2  pabB, nudL
+  313      1901106    1902770    +          2  manY, manZ
+  314      1905250    1905615    -          2  cspC, yobF
+  315      1910792    1913558    -          2  prc, proQ
+  316      1914282    1918167    +          2  yebS, yebT
+  317      1921389    1922993    -          3  yebY, yebZ, yobA
+  318      1923464    1924806    +          2  yobB, exoX
+  319      1930139    1932628    -          2  eda, edd
+  320      1938337    1940607    -          2  yebA, znuA
+  321      1940686    1942223    +          2  znuC, znuB
+  322      1942370    1944000    -          2  ruvB, ruvA
+  323      1944879    1946656    -          3  ruvC, yebC, nudB
+  324      1948856    1950237    +          2  yecD, yecE
+  325      1950290    1952437    +          3  yecN, cmoA, cmoB
+  326      1952602    1956156    -          2  torZ, torY
+  327      1956544    1957870    -          2  cutC, yecM
+  328      1960604    1964215    -          3  flhE, flhA, flhB
+  329      1964417    1970715    -          6  cheZ, cheY, cheB, cheR, tap, tar
+  330      1970860    1975163    -          4  cheW, cheA, motB, motA
+  331      1975290    1976221    -          2  flhC, flhD
+  332      1976542    1977239    -          2  insB, insA
+  333      1978212    1980411    -          2  otsA, otsB
+  334      1980578    1983093    -          2  araH, araG
+  335      1990898    1993383    -          2  uvrC, uvrY
+  336      1995086    1997504    -          3  yecC, yecS, dcyD
+  337      1998497    1999813    -          2  fliZ, fliA
+  338      2001896    2004102    +          3  fliD, fliS, fliT
+  339      2006301    2007736    +          2  yedE, yedF
+  340      2011253    2017537    +          6  fliF, fliG, fliH, fliI, fliJ, fliK
+  341      2017642    2021702    +          7  fliL, fliM, fliN, fliO, fliP, fliQ, fliR
+  342      2028472    2030341    -          2  vsr, dcm
+  343      2030408    2031508    -          2  yedJ, yedR
+  344      2034818    2036847    -          2  yedV, yedW
+  345      2037502    2039142    +          2  yedY, yedZ
+  346      2061412    2063788    -          3  cobT, cobS, cobU
+  347      2066976    2068204    -          2  insD, insC
+  348      2072803    2074778    +          2  yeeR, yeeS
+  349      2082250    2083549    -          2  yeeD, yeeE
+  350      2083728    2085138    -          2  plaP, yoeI
+  351      2085353    2087152    -          2  yeeY, yeeZ
+  352      2087235    2087737    -          2  yoeB, yefM
+  353      2088216    2095249    +          8  hisG, hisD, hisC, hisB, hisH, hisA, hisF, hisI
+  354      2101415    2109043    -          8  wbbK, wbbJ, wbbI, rfc, glf, rfbX, rfbC, rfbA
+  355      2109101    2111085    -          2  rfbD, rfbB
+  356      2112526    2116428    -          3  wcaM, wcaL, wcaK
+  357      2116704    2119578    -          2  wzxC, wcaJ
+  358      2121108    2131421    -         11  cpsB, wcaI, gmm, fcl, gmd, wcaF, wcaE, wcaD, wcaC, wcaB, wcaA
+  359      2131514    2135267    -          3  wzc, wzb, wza
+  360      2137783    2140239    -          2  asmA, dcd
+  361      2149735    2151152    -          2  yegK, yegL
+  362      2152040    2163022    +          6  mdtA, mdtB, mdtC, mdtD, baeS, baeR
+  363      2168260    2169422    +          2  insE, insF
+  364      2169857    2175226    -          6  gatD, gatC, gatB, gatA, gatZ, gatY
+  365      2176843    2180083    +          3  yegT, yegU, yegV
+  366      2181738    2183323    -          2  thiD, thiM
+  367      2185402    2190244    -          4  yehA, yehB, yehC, yehD
+  368      2202618    2207125    +          3  yehL, yehM, yehP
+  369      2209748    2212666    -          3  yehS, yehT, yehU
+  370      2213767    2217503    -          4  yehW, yehX, yehY, osmF
+  371      2228646    2229736    +          2  yohJ, yohK
+  372      2230900    2231861    +          2  sanA, yeiS
+  373      2232055    2234522    +          2  preB, preA
+  374      2234765    2237311    -          2  mglC, mglA
+  375      2239832    2241674    -          2  yeiB, folE
+  376      2248862    2250810    +          2  nfo, yeiI
+  377      2255451    2257318    -          2  psuG, psuK
+  378      2257741    2261517    -          3  fruA, fruK, fruB
+  379      2265851    2267589    +          2  yeiR, lpxT
+  380      2270386    2275911    +          4  yejA, yejB, yejE, yejF
+  381      2276592    2278505    -          2  bcr, rsuA
+  382      2282151    2284158    +          2  yejL, yejM
+  383      2289380    2301519    -         15  ccmH, ccmG, ccmF, ccmE, ccmD, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napD, napF
+  384      2306713    2308427    -          2  alkB, ada
+  385      2311510    2314849    +          2  rcsD, rcsB
+  386      2318065    2321273    +          2  atoS, atoC
+  387      2321469    2325315    +          4  atoD, atoA, atoE, atoB
+  388      2325389    2327819    -          2  yfaP, yfaQ
+  389      2332358    2334666    -          2  yfaT, yfaA
+  390      2345406    2346790    +          2  nrdB, yfaE
+  391      2347957    2350396    -          2  glpQ, glpT
+  392      2350669    2354733    +          3  glpA, glpB, glpC
+  393      2354926    2356023    +          2  yfaD, ypaA
+  394      2356064    2358174    -          2  rhmA, rhmT
+  395      2358231    2360233    -          2  rhmD, rhmR
+  396      2363950    2371300    +          7  arnB, arnC, arnA, arnD, arnT, arnE, arnF
+  397      2371670    2377281    -          5  menE, menC, menB, menH, menD
+  398      2388070    2391063    -          2  nuoN, nuoM
+  399      2391227    2398187    -          6  nuoL, nuoK, nuoJ, nuoI, nuoH, nuoG
+  400      2398240    2401867    -          3  nuoF, nuoE, nuoC
+  401      2401973    2403094    -          2  nuoB, nuoA
+  402      2409461    2410616    -          2  yfbT, yfbU
+  403      2419347    2420623    +          2  folX, yfcH
+  404      2421758    2423938    -          3  hisP, hisM, hisQ
+  405      2426743    2428785    -          2  purF, cvpA
+  406      2429044    2430964    -          2  dedD, folC
+  407      2432846    2434671    -          2  truA, usg
+  408      2441913    2446462    -          6  yfcL, yfcM, yfcA, mepA, aroC, prmB
+  409      2447250    2450358    -          5  yfcO, yfcP, yfcQ, yfcR, yfcS
+  410      2455037    2458491    -          2  fadJ, fadI
+  411      2465877    2468484    +          3  gtrA, gtrB, gtrS
+  412      2473006    2474200    +          3  yfdR, yfdS, yfdT
+  413      2475869    2478552    +          2  dsdX, dsdA
+  414      2478660    2481361    -          2  emrY, emrK
+  415      2481777    2485989    +          2  evgA, evgS
+  416      2496693    2500009    +          3  ypdA, ypdB, ypdC
+  417      2500012    2506264    -          5  fryA, ypdE, ypdF, fryC, fryB
+  418      2516489    2517227    +          2  yfeC, yfeD
+  419      2525963    2528198    -          2  ypeB, ligA
+  420      2531786    2534365    +          3  ptsH, ptsI, crr
+  421      2535364    2536505    +          2  yfeK, yfeS
+  422      2537739    2541550    -          4  cysA, cysW, cysU, cysP
+  423      2543795    2547428    +          3  murQ, murP, yfeW
+  424      2549299    2550160    -          2  yfeZ, ypeA
+  425      2550374    2552146    +          2  amiA, hemF
+  426      2552152    2556701    -          5  eutR, eutK, eutL, eutC, eutB
+  427      2559390    2560015    +          2  yffM, yffN
+  428      2560133    2561139    +          2  yffO, yffP
+  429      2561614    2562394    +          2  yffQ, yffR
+  430      2563503    2566129    -          2  eutA, eutH
+  431      2566346    2570072    -          4  eutG, eutJ, eutE, eutN
+  432      2570179    2573827    -          6  eutM, eutD, eutT, eutQ, eutP, eutS
+  433      2576688    2579661    +          2  talA, tktB
+  434      2589269    2590984    +          3  yffB, dapE, ypfN
+  435      2591866    2594759    -          2  tmcA, ypfJ
+  436      2595853    2597782    -          2  bamC, dapA
+  437      2597928    2598970    +          2  gcvR, bcp
+  438      2599223    2612804    +         12  hyfA, hyfB, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB
+  439      2614116    2615959    +          2  yfgC, yfgD
+  440      2619219    2620894    +          2  purM, purN
+  441      2621066    2624678    +          2  ppk, ppx
+  442      2627814    2628887    +          2  yfgH, yfgI
+  443      2635496    2638597    -          3  bamB, yfgM, hisS
+  444      2638708    2640866    -          2  ispG, rodZ
+  445      2643035    2650309    -          2  pbpC, yfhM
+  446      2654558    2657489    -          4  iscX, fdx, hscA, hscB
+  447      2657585    2659553    -          3  iscA, iscU, iscS
+  448      2667054    2671271    +          5  hcaE, hcaF, hcaC, hcaB, hcaD
+  449      2671838    2673783    -          2  yphB, yphC
+  450      2673849    2677389    -          3  yphD, yphE, yphF
+  451      2685491    2687528    -          2  glrR, yfhG
+  452      2698640    2702085    -          5  acpS, pdxJ, recO, era, rnc
+  453      2702357    2705146    -          2  lepB, lepA
+  454      2705344    2708034    -          4  rseC, rseB, rseA, rpoE
+  455      2717245    2720635    +          2  yfiP, yfiQ
+  456      2720749    2722473    +          2  pssA, yfiM
+  457      2732325    2734033    -          2  yfiH, rluD
+  458      2736970    2739172    -          2  tyrA, aroF
+  459      2739897    2742129    +          3  yfiR, yfiN, yfiB
+  460      2742205    2744207    -          4  rplS, trmD, rimM, rpsP
+  461      2745984    2748082    +          2  ypjD, yfjD
+  462      2752030    2752786    -          2  ratB, ratA
+  463      2759373    2763175    -          2  yfjK, yfjL
+  464      2763940    2765377    +          2  rnlA, rnlB
+  465      2767725    2769637    +          4  yfjR, ypjK, yfjS, yfjT
+  466      2773941    2775804    +          5  yfjX, yfjY, ypjJ, yfjZ, ypjF
+  467      2787007    2792037    +          4  csiD, lhgO, gabD, gabT
+  468      2792275    2794358    +          2  gabP, csiR
+  469      2795233    2796066    +          2  ygaV, ygaP
+  470      2798745    2802483    +          4  nrdH, nrdI, nrdE, nrdF
+  471      2802837    2805096    +          2  proV, proW
+  472      2807639    2808701    +          2  ygaZ, ygaH
+  473      2809449    2812176    +          2  emrA, emrB
+  474      2814534    2815525    -          2  yqaA, yqaB
+  475      2823854    2826538    +          4  srlA, srlE, srlB, srlD
+  476      2827069    2828800    +          2  srlR, gutQ
+  477      2830498    2833067    +          2  norV, norW
+  478      2837546    2840436    +          2  ascF, ascB
+  479      2840595    2847871    -          8  hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB
+  480      2848669    2852286    +          5  hypA, hypB, hypC, hypD, hypE
+  481      2859452    2861523    +          2  ygbJ, ygbK
+  482      2861615    2863034    +          2  ygbL, ygbM
+  483      2866915    2870842    -          6  pcm, surE, truD, ispF, ispD, ftsB
+  484      2871036    2874351    -          4  ygbE, cysC, cysN, cysD
+  485      2876591    2882160    -          7  ygbF, ygbT, casE, casD, casC, casB, casA
+  486      2886409    2889920    -          2  cysI, cysJ
+  487      2890679    2892793    +          3  ygcN, ygcO, ygcP
+  488      2892941    2895892    -          3  ygcQ, ygcR, ygcS
+  489      2898614    2901396    +          2  yqcE, ygcE
+  490      2903579    2904605    +          2  yqcG, ygcG
+  491      2908778    2909361    -          2  mazF, mazE
+  492      2909439    2913022    -          2  relA, rlmC
+  493      2916067    2920122    -          3  gudD, gudX, gudP
+  494      2920557    2922135    -          3  yqcA, truC, yqcC
+  495      2929887    2931710    -          2  fucO, fucA
+  496      2932257    2935381    +          2  fucP, fucI
+  497      2935460    2937332    +          2  fucK, fucU
+  498      2938165    2940589    -          3  rlmM, ygdD, gcvA
+  499      2941359    2943007    +          2  csdA, csdE
+  500      2948657    2956906    -          3  recD, recB, ptrA
+  501      2957082    2962199    -          5  recC, ppdC, ygdB, ppdB, ppdA
+  502      2962383    2964059    -          2  thyA, lgt
+  503      2964210    2966999    -          2  ptsP, rppH
+  504      2970691    2974036    -          2  lplT, aas
+  505      2980519    2982146    -          2  kduD, kduI
+  506      2986524    2987808    +          2  yqeI, yqeJ
+  507      2987841    2988382    -          2  yqeL, yqeK
+  508      2994394    2995622    -          2  insD, insC
+  509      2998367    3001990    +          3  xdhA, xdhB, xdhC
+  510      3008050    3010415    +          2  hyuA, yqeA
+  511      3010636    3013079    -          2  yqeB, yqeC
+  512      3014082    3018511    +          2  ygfK, ssnA
+  513      3018562    3022208    +          2  ygfM, xdhD
+  514      3022373    3026510    +          3  xanQ, guaD, ygfQ
+  515      3026546    3028953    -          2  ygfS, ygfT
+  516      3029389    3030964    +          2  ygfU, yqfG
+  517      3031679    3034304    -          2  lysS, prfB
+  518      3034395    3037765    -          3  recJ, dsbC, xerD
+  519      3038438    3039092    -          2  ygfX, ygfY
+  520      3047182    3048689    -          2  gcvH, gcvT
+  521      3049137    3053466    -          4  visC, ubiH, pepP, ygfB
+  522      3058872    3064302    +          4  scpA, argK, scpB, scpC
+  523      3069481    3071713    -          2  pgk, epd
+  524      3071998    3077352    -          6  yggC, yggD, yggF, yggP, cmtA, cmtB
+  525      3081957    3084073    -          2  speA, yqgB
+  526      3089156    3090850    +          2  rsmE, gshB
+  527      3090959    3091938    +          2  yqgE, yqgF
+  528      3093120    3096425    +          5  yggS, yggT, yggU, rdgB, yggW
+  529      3099829    3100874    -          2  yggL, trmI
+  530      3101035    3102390    +          2  mutY, yggX
+  531      3119656    3126043    -          5  glcB, glcG, glcF, glcE, glcD
+  532      3129363    3131979    -          3  yghQ, yghR, yghS
+  533      3137738    3144283    -          8  hybG, hybF, hybE, hybD, hybC, hybB, hybA, hybO
+  534      3148840    3150006    -          2  exbD, exbB
+  535      3165873    3166566    -          2  mqsA, mqsR
+  536      3167850    3169855    +          2  qseB, qseC
+  537      3170552    3171478    +          2  mdaB, ygiN
+  538      3171526    3175932    -          5  parE, yqiA, cpdA, yqiB, nudF
+  539      3177766    3179603    +          2  ygiB, ygiC
+  540      3184209    3185437    +          2  insC, insD
+  541      3187903    3189718    +          2  yqiH, yqiI
+  542      3190230    3192547    +          2  yqiJ, yqiK
+  543      3193342    3198987    -          3  rfaE, glnE, ygiF
+  544      3204485    3207509    +          3  ttdA, ttdB, ttdT
+  545      3220655    3224193    +          2  ebgA, ebgC
+  546      3225823    3229261    +          2  ygjJ, ygjK
+  547      3231750    3232477    -          2  higA, higB
+  548      3239849    3242763    -          2  uxaA, uxaC
+  549      3245795    3246844    +          2  yqjA, mzrA
+  550      3246991    3248398    +          4  yqjC, yqjD, yqjE, yqjK
+  551      3252341    3253229    +          2  yhaK, yhaL
+  552      3253363    3256032    -          2  yhaM, yhaO
+  553      3257743    3264050    -          5  tdcF, tdcE, tdcD, tdcC, tdcB
+  554      3265876    3267624    +          2  yhaB, yhaC
+  555      3269889    3272929    -          3  garR, garL, garP
+  556      3275024    3275823    +          2  prlF, yhaV
+  557      3276936    3278712    +          2  kbaZ, agaV
+  558      3279998    3282025    +          2  agaS, kbaY
+  559      3282192    3285047    +          4  agaB, agaC, agaD, agaI
+  560      3286112    3290454    +          3  yraI, yraJ, yraK
+  561      3291422    3295006    +          4  lpoA, yraN, diaA, yraP
+  562      3298277    3299298    -          2  yhbS, yhbT
+  563      3299507    3301389    +          2  yhbU, yhbV
+  564      3303993    3305955    -          2  deaD, yrbN
+  565      3309855    3311200    -          2  truB, rbfA
+  566      3311364    3316028    -          3  infB, nusA, rimP
+  567      3320755    3322933    -          2  glmM, folP
+  568      3328604    3330757    -          2  obgE, yhbE
+  569      3330884    3331473    -          2  rpmA, rplU
+  570      3334985    3338087    -          5  mlaB, mlaC, mlaD, mlaE, mlaF
+  571      3338297    3344482    +          8  yrbG, kdsD, kdsC, lptC, lptA, lptB, rpoN, hpf
+  572      3344600    3346260    +          3  ptsN, yhbJ, npr
+  573      3347103    3348481    -          2  mtgA, elbB
+  574      3352747    3358638    +          2  gltB, gltD
+  575      3360134    3363210    +          2  yhcA, yhcD
+  576      3367036    3370596    -          4  yhcH, nanK, nanE, nanT
+  577      3374301    3375442    -          2  sspB, sspA
+  578      3375837    3376673    -          2  rpsI, rplM
+  579      3384243    3387359    -          3  aaeB, aaeA, aaeX
+  580      3394348    3398000    -          4  rng, yhdE, mreD, mreC
+  581      3403458    3405288    +          2  accB, accC
+  582      3405397    3407973    +          3  yhdT, panF, prmA
+  583      3408302    3409589    +          2  dusB, fis
+  584      3411886    3416159    +          2  acrE, acrF
+  585      3418156    3421216    +          3  yhdX, yhdY, yhdZ
+  586      3427788    3431582    -          6  yrdB, aroE, rimN, yrdD, smg, smf
+  587      3431712    3435916    +          4  def, fmt, rsmB, trkA
+  588      3436727    3437531    -          2  zntR, yhdN
+  589      3437638    3440493    -          5  rplQ, rpoA, rpsD, rpsK, rpsM
+  590      3440640    3446171    -         12  rpmJ, secY, rplO, rpmD, rpsE, rplR, rplF, rpsH, rpsN, rplE, rplX, rplN
+  591      3446336    3451292    -         11  rpsQ, rpmC, rplP, rpsC, rplV, rpsS, rplB, rplW, rplD, rplC, rpsJ
+  592      3451530    3453420    -          2  gspB, gspA
+  593      3453600    3464242    +         12  gspC, gspD, gspE, gspF, gspG, gspH, gspI, gspJ, gspK, gspL, gspM, gspO
+  594      3469422    3472103    -          2  fusA, rpsG
+  595      3472700    3474462    -          4  tusB, tusC, tusD, yheO
+  596      3476614    3479183    -          3  yheV, kefB, kefG
+  597      3479311    3482458    +          3  yheS, yheT, yheU
+  598      3484142    3486915    +          2  crp, yhfK
+  599      3488288    3489642    -          3  pabA, fic, yhfG
+  600      3492033    3494899    +          2  nirB, nirD
+  601      3495025    3497223    +          2  nirC, cysG
+  602      3497932    3501974    +          4  frlA, frlB, frlC, frlD
+  603      3502957    3508998    -          6  yhfS, yhfT, yhfU, php, yhfW, yhfX
+  604      3509082    3510366    -          2  yhfY, yhfZ
+  605      3510656    3513935    -          4  trpS, gph, rpe, dam
+  606      3517487    3520773    -          5  hofQ, hofP, hofO, hofN, hofM
+  607      3526691    3528674    +          3  yrfG, hslR, hslO
+  608      3532538    3534606    -          2  envZ, ompR
+  609      3538185    3540986    +          3  feoA, feoB, feoC
+  610      3546008    3550495    -          2  malQ, malP
+  611      3553855    3556101    -          2  rtcA, rtcB
+  612      3557870    3559846    -          3  glpR, glpG, glpE
+  613      3562157    3571525    -          5  glgP, glgA, glgC, glgX, glgB
+  614      3573744    3575615    -          2  gntU, gntK
+  615      3581506    3582203    +          2  insA, insB
+  616      3585393    3588934    -          4  ugpQ, ugpC, ugpE, ugpA
+  617      3590747    3595583    -          5  livF, livG, livM, livH, livK
+  618      3599051    3602266    -          3  ftsX, ftsE, ftsY
+  619      3602416    3603271    +          2  rsmD, yhhL
+  620      3611690    3617012    +          6  nikA, nikB, nikC, nikD, nikE, nikR
+  621      3617215    3621805    +          2  rhsB, yhhH
+  622      3623702    3628625    -          3  yhhJ, rbbA, yhiI
+  623      3640403    3643205    -          2  yhiQ, prlC
+  624      3646958    3648685    +          2  arsB, arsC
+  625      3657255    3661550    +          2  mdtE, mdtF
+  626      3670437    3672398    +          2  yhjC, yhjD
+  627      3683723    3693259    -          4  bcsC, bcsZ, bcsB, bcsA
+  628      3694481    3697916    +          3  bcsE, bcsF, bcsG
+  629      3699887    3703813    -          4  dppF, dppD, dppC, dppB
+  630      3711115    3712115    +          2  tag, yiaC
+  631      3718703    3720072    +          2  insJ, insK
+  632      3720351    3723341    -          2  glyS, glyQ
+  633      3724947    3725771    -          2  yiaA, yiaB
+  634      3730224    3732924    +          2  xylG, xylH
+  635      3740756    3742233    +          2  yiaK, yiaL
+  636      3742351    3748804    +          7  yiaM, yiaN, yiaO, lyxK, yiaQ, yiaR, yiaS
+  637      3750986    3752451    -          2  yiaV, yiaW
+  638      3756040    3759272    -          2  selB, selA
+  639      3760206    3765202    +          2  rhsA, yibA
+  640      3768266    3769767    -          2  yibH, yibI
+  641      3772447    3774182    +          2  mtlD, mtlR
+  642      3775422    3779040    +          3  lldP, lldR, lldD
+  643      3780665    3782151    -          2  gpsA, secB
+  644      3783283    3787083    +          3  gpmM, envC, yibQ
+  645      3788343    3790574    -          2  tdh, kbl
+  646      3792010    3796230    +          4  rfaD, rfaF, rfaC, rfaL
+  647      3796262    3798219    -          2  waaU, rfaZ
+  648      3798290    3806121    -          8  rfaY, rfaJ, rfaI, rfaB, rfaS, rfaP, rfaG, rfaQ
+  649      3806563    3808327    +          2  waaA, coaD
+  650      3809273    3809697    -          2  rpmG, rpmB
+  651      3810754    3812410    +          2  dfp, dut
+  652      3820129    3825314    +          4  rpoZ, spoT, trmH, recG
+  653      3830242    3833952    -          2  yicI, yicJ
+  654      3845328    3848749    -          3  uhpC, uhpB, uhpA
+  655      3848825    3850807    -          2  ilvN, ilvB
+  656      3853137    3854330    -          3  yidF, yidG, yidH
+  657      3854934    3858139    -          2  yidJ, yidK
+  658      3869873    3873183    -          4  dgoD, dgoA, dgoK, dgoR
+  659      3875728    3881752    -          4  gyrB, recF, dnaN, dnaA
+  660      3882359    3884745    +          4  rpmH, rnpA, yidD, yidC
+  661      3889638    3891747    +          2  mdtL, yidZ
+  662      3891904    3893241    +          2  yieE, yieF
+  663      3895529    3896632    +          2  cbrB, cbrC
+  664      3896694    3900243    -          3  yieK, yieL, bglH
+  665      3900312    3903620    -          2  bglB, bglF
+  666      3904876    3906389    -          2  phoU, pstB
+  667      3906572    3908421    -          2  pstA, pstC
+  668      3913576    3916288    -          3  atpC, atpD, atpG
+  669      3916339    3918911    -          3  atpA, atpH, atpF
+  670      3918973    3920463    -          3  atpE, atpB, atpI
+  671      3926175    3929116    -          2  viaA, ravA
+  672      3931374    3935191    +          4  rbsD, rbsA, rbsC, rbsB
+  673      3935317    3937242    +          2  rbsK, rbsR
+  674      3937208    3939350    -          2  hsrA, yieP
+  675      3950224    3951436    +          2  ilvM, ilvE
+  676      3951501    3954898    +          2  ilvD, ilvA
+  677      3965939    3968100    +          2  rfe, wzzE
+  678      3968156    3978719    +         10  rffE, rffD, rffG, rffH, rffC, rffA, wzxE, rffT, wzyE, rffM
+  679      3984709    3988789    -          4  hemY, hemX, hemD, hemC
+  680      3992545    3995922    +          5  yifL, dapF, yigA, xerC, yigB
+  681      4000442    4001216    -          2  yigF, yigG
+  682      4007193    4009023    +          2  pldB, yigL
+  683      4016878    4019889    +          3  ubiE, yigP, ubiB
+  684      4019968    4022359    +          4  tatA, tatB, tatC, tatD
+  685      4023011    4025251    +          2  ubiD, fre
+  686      4025632    4028994    -          2  fadA, fadB
+  687      4029184    4033176    +          4  pepQ, yigZ, trkH, hemG
+  688      4038929    4040022    -          2  mobB, mobA
+  689      4040438    4042067    +          2  rdoA, dsbA
+  690      4051892    4054362    -          2  glnG, glnL
+  691      4058470    4060168    +          2  yihL, yihM
+  692      4062386    4067299    -          3  yihO, yihP, yihQ
+  693      4068538    4071594    -          3  yihS, yihT, yihU
+  694      4071762    4073477    +          2  yihV, yihW
+  695      4073576    4076461    +          4  yihX, yihY, dtd, yiiD
+  696      4078322    4083845    -          4  fdhE, fdoI, fdoH, fdoG
+  697      4086130    4090846    -          4  frvR, frvX, frvB, frvA
+  698      4091147    4092295    -          2  rhaM, rhaD
+  699      4092746    4095471    -          2  rhaA, rhaB
+  700      4101625    4103693    -          2  cpxA, cpxR
+  701      4110990    4111744    +          2  yiiS, uspD
+  702      4113737    4116113    -          2  glpK, glpF
+  703      4118439    4120310    -          2  hslU, hslV
+  704      4126695    4130290    +          2  metB, metL
+  705      4135955    4140244    -          3  gldA, fsaB, ptsA
+  706      4140553    4141967    +          2  frwC, frwB
+  707      4142018    4145502    +          3  pflD, pflC, frwD
+  708      4153024    4154812    +          2  argC, argB
+  709      4159147    4160153    +          2  fabR, yijD
+  710      4161662    4164308    +          2  btuB, murI
+  711      4170080    4172070    +          2  murB, birA
+  712      4175381    4176311    +          2  secE, nusG
+  713      4176470    4177606    +          2  rplK, rplA
+  714      4188758    4194122    -          6  thiH, thiG, thiS, thiF, thiE, thiC
+  715      4194926    4198117    +          4  nudC, hemE, nfi, yjaG
+  716      4198304    4199284    +          2  hupA, yjaH
+  717      4199949    4202668    +          2  zraS, zraR
+  718      4202665    4205555    -          2  purD, purH
+  719      4213501    4216436    +          2  aceB, aceA
+  720      4234285    4237753    +          3  yjbF, yjbG, yjbH
+  721      4240649    4243098    -          2  malG, malF
+  722      4250529    4251911    +          2  ubiC, ubiA
+  723      4255138    4257144    +          2  lexA, dinF
+  724      4258344    4259329    +          2  yjbL, yjbM
+  725      4268261    4269037    +          2  yjbQ, yjbR
+  726      4281276    4283236    -          2  actP, yjcH
+  727      4285787    4289455    +          4  nrfA, nrfB, nrfC, nrfD
+  728      4289535    4292162    +          3  nrfE, nrfF, nrfG
+  729      4297587    4302426    -          4  mdtP, mdtO, mdtN, ytcA
+  730      4304893    4309003    -          4  alsK, alsE, alsC, alsA
+  731      4312367    4315918    -          5  phnP, phnO, phnN, phnM, phnL
+  732      4316029    4320445    -          6  phnK, phnJ, phnI, phnH, phnG, phnF
+  733      4321359    4323188    -          2  phnD, phnC
+  734      4325158    4328261    +          2  yjdA, yjcZ
+  735      4330204    4333613    -          3  basS, basR, eptA
+  736      4347338    4349685    -          2  dcuR, dcuS
+  737      4349866    4350380    +          2  yjdI, yjdJ
+  738      4350607    4351104    +          2  yjdK, yjdO
+  739      4360756    4363379    -          3  yjdC, dsbD, cutA
+  740      4368711    4370694    +          2  groS, groL
+  741      4377030    4380341    -          4  frdD, frdC, frdB, frdA
+  742      4383416    4384041    +          2  yjeN, yjeO
+  743      4384070    4388383    -          2  yjeP, psd
+  744      4392089    4398225    +          5  yjeF, yjeE, amiB, mutL, miaA
+  745      4400061    4402327    +          2  hflK, hflC
+  746      4404213    4407118    +          2  nsrR, rnr
+  747      4408156    4409274    +          2  yjfI, yjfJ
+  748      4409325    4412214    +          4  yjfK, yjfL, yjfM, yjfC
+  749      4418003    4422409    +          6  ulaA, ulaB, ulaC, ulaD, ulaE, ulaF
+  750      4423141    4424580    +          4  rpsF, priB, rpsR, rplI
+  751      4440405    4446258    +          3  ytfM, ytfN, ytfP
+  752      4446470    4447065    +          2  chpS, chpB
+  753      4449081    4452601    +          3  ytfR, ytfT, yjfF
+  754      4461077    4464203    -          2  treC, treB
+  755      4469009    4470556    -          3  pyrI, pyrB, pyrL
+  756      4479005    4482303    -          2  valS, holC
+  757      4484241    4486423    +          2  lptF, lptG
+  758      4490610    4492429    -          2  idnO, idnD
+  759      4496295    4497523    +          2  insC, insD
+  760      4502081    4504596    +          3  yjhB, yjhC, ythA
+  761      4508713    4514700    -          5  fecE, fecD, fecC, fecB, fecA
+  762      4514787    4516258    -          2  fecR, fecI
+  763      4520150    4523826    -          3  yjhG, yjhH, yjhI
+  764      4524129    4526003    -          3  sgcR, sgcE, sgcA
+  765      4526134    4529674    -          4  sgcQ, sgcC, sgcB, sgcX
+  766      4531262    4532076    -          2  yjhQ, yjhX
+  767      4535682    4537524    -          2  nanM, nanC
+  768      4541751    4543052    +          2  fimI, fimC
+  769      4543119    4547733    +          4  fimD, fimF, fimG, fimH
+  770      4556377    4558703    -          3  iadA, yjiG, yjiH
+  771      4561945    4563873    -          2  yjiL, yjiM
+  772      4563989    4566542    -          2  yjiN, mdtM
+  773      4574935    4577360    -          2  mcrC, mcrB
+  774      4578091    4581071    -          2  hsdS, hsdM
+  775      4585932    4589302    -          3  yjiA, yjiX, yjiY
+  776      4597718    4599540    -          3  yjjA, dnaC, dnaT
+  777      4599647    4600881    -          2  yjjB, yjjP
+  778      4601500    4602860    +          2  yjjQ, bglJ
+  779      4605826    4607346    +          3  holD, rimI, yjjG
+  780      4610434    4612283    +          2  yjjU, yjjV
+  781      4612703    4615088    -          2  yjjW, yjjI
+  782      4621124    4622812    -          2  lplA, ytjB
+  783      4622918    4626570    +          3  serB, radA, nadR
+  784      4633544    4636143    +          3  creA, creB, creC
+
+================================================================================
+  GENOME : Halobacterium sp. NRC-1 chromosome, complete genome
+================================================================================
+
+  --- Summary Statistics ---
+  Total genes (annotated)       : 2075
+  Total operons predicted       : 396
+  Genes in operons              : 1017  (49.01% of all genes)
+  Singleton genes (no operon)   : 1058  (50.99% of all genes)
+
+  Operon size (number of genes):
+    Minimum   : 2
+    Maximum   : 25
+    Mean      : 2.57
+    Median    : 2.0
+
+  Strand breakdown:
+    Forward (+) operons : 189
+    Reverse (-) operons : 207
+
+  Largest operon (25 genes):
+    Location : 1258177 - 1272334  [+]
+    Genes    : VNG1688C, rpl3p, rpl4lp, rplW, rpl2p, rps19p, rpl22p, rps3p, rpmC, VNG1699C, rps17p, rpl14p, rpl24p, rps4e, rpl5p, rps14P, rps8p, rpl6p, rpl32e, rpl19e, rpl18p, rps5p, rpl30p, rpl15p, secY
+
+  Longest genomic span operon (14158 bp):
+    Location : 1258177 - 1272334  [+]
+    Genes    : VNG1688C, rpl3p, rpl4lp, rplW, rpl2p, rps19p, rpl22p, rps3p, rpmC, VNG1699C, rps17p, rpl14p, rpl24p, rps4e, rpl5p, rps14P, rps8p, rpl6p, rpl32e, rpl19e, rpl18p, rps5p, rpl30p, rpl15p, secY
+
+  Operon size distribution:
+      Size   Count  Bar
+    ------  ------  ----------------------------------------
+         2     277  ||||||||||||||||||||||||||||||||||||||||
+         3      71  ||||||||||||||||||||||||||||||||||||||||
+         4      29  |||||||||||||||||||||||||||||
+         5       8  ||||||||
+         6       5  |||||
+         7       4  ||||
+        11       1  |
+        25       1  |
+
+  Detailed operon list:
+  #          Start       Stop  Strand  NGenes  Gene IDs
+  --------------------------------------------------------------------------------
+  1            248       3254    +          3  VNG0001H, yvrO, VNG0003C
+  2           5646       9860    -          3  glmS, graD5, graD2
+  3          18357      19530    +          2  VNG0022H, VNG0023H
+  4          26648      29429    +          2  VNG0031H, VNG0032H
+  5          29476      30014    -          2  VNG0033H, VNG0034H
+  6          31838      32355    +          2  VNG0037H, VNG0038H
+  7          33182      33915    -          2  VNG0040C, VNG0041C
+  8          36321      39432    +          3  VNG0043H, VNG0044H, VNG0045C
+  9          41880      44149    +          2  VNG0049H, VNG0050C
+  10         64976      65472    +          2  VNG0066H, VNG0067H
+  11         66054      66534    +          2  VNG0069H, VNG0070H
+  12         74752      77867    -          2  moeA2, moeA1
+  13         77923      79597    -          2  pimT1, VNG0091C
+  14         87668      90587    +          2  rmeM, rmeS
+  15         90639      94359    +          2  rmeR, VNG0110C
+  16        102034     102692    -          2  VNG0117H, VNG0118H
+  17        102863     103146    -          2  VNG0119H, VNG0120H
+  18        104073     106791    +          2  trp1, VNG0124C
+  19        106803     107562    -          2  VNG0125H, VNG0127C
+  20        112247     113712    +          2  hpyA, aup
+  21        117867     118700    -          2  VNG0142C, VNG0143H
+  22        119759     120364    -          2  VNG0147C, VNG0148H
+  23        122890     123839    -          2  VNG0150H, VNG0151C
+  24        129737     132696    -          2  kdgK, mutL
+  25        135504     138478    +          2  gdhB, alkK
+  26        148838     151860    +          2  cat1, trkA1
+  27        156613     158308    +          2  lpl, xthA
+  28        158525     160433    +          2  VNG0184H, pepB1
+  29        169721     171424    -          3  VNG0198H, VNG0199H, VNG0200C
+  30        171924     173824    -          3  VNG0204H, VNG0203C, VNG0205H
+  31        175115     176947    +          3  VNG0207H, VNG0208H, VNG0209H
+  32        177587     179321    +          2  VNG0212H, VNG0213H
+  33        187174     189565    +          3  VNG0219H, VNG0220H, VNG0222C
+  34        192826     195984    +          3  guaAa, VNG0230C, VNG0231C
+  35        196042     196665    -          2  VNG0233H, VNG0234C
+  36        197052     197512    -          2  VNG0237H, rpl37ae
+  37        198651     200293    -          2  truD, VNG0240a
+  38        200377     202517    +          3  VNG0244H, dcd, VNG0247C
+  39        202509     205708    -          2  VNG0248C, fbr
+  40        205790     207418    -          2  VNG0250C, VNG0251C
+  41        209439     210582    +          2  VNG0255C, VNG0256H
+  42        211694     213011    +          2  VNG0261H, VNG0262C
+  43        215499     218070    +          3  VNG0266H, VNG0267H, VNG0268C
+  44        218415     220949    +          3  VNG0270C, VNG0271C, VNG0272H
+  45        221005     223274    +          2  VNG0274C, crtI3
+  46        225590     226179    -          2  VNG0283C, VNG0282H
+  47        229052     230597    +          2  VNG0285C, VNG0286C
+  48        231155     232952    -          3  VNG0289H, VNG0291H, VNG0293H
+  49        235698     237037    -          2  VNG0298H, VNG0300C
+  50        240541     244234    +          4  trpC, trpB, trpA, VNG0309C
+  51        251940     255653    -          4  ids, VNG0322H, VNG0323H, pykA
+  52        257872     262549    -          3  gadD, caaX, ppsA
+  53        268046     272777    -          3  VNG0340C, smc1, VNG0343H
+  54        278123     280474    +          3  VNG0351C, VNG0352H, VNG0354C
+  55        282398     283725    +          2  VNG0357H, VNG0359C
+  56        284272     286072    +          2  VNG0361C, nfi
+  57        288101     289006    +          2  VNG0367H, VNG0368C
+  58        291994     292606    -          2  nusG, secE
+  59        292670     295060    -          2  ftsZ1, VNG0378C
+  60        296344     300941    +          6  aroE, VNG0383H, trpE2, trpG2, ilvE1, VNG0388C
+  61        302277     304194    -          2  VNG0391C, VNG0393C
+  62        311391     312946    +          2  VNG0404H, VNG0405C
+  63        315206     318105    -          2  VNG0408H, VNG0409C
+  64        319297     323580    -          2  folP, purH
+  65        325020     326195    +          2  VNG0417H, VNG0419C
+  66        328415     329523    +          2  nac, pimT2
+  67        334798     336626    -          2  VNG0435H, nhaC1
+  68        341670     345117    -          3  rspA, dapA, VNG0447H
+  69        345205     346910    +          2  gcd, pyrE1
+  70        348053     351566    -          3  pstB2, pstA2, pstC2
+  71        356605     359239    -          4  VNG0462C, VNG0463C, nosF2, VNG0466C
+  72        361705     364117    -          2  VNG0469H, trp3
+  73        364276     364889    -          2  VNG0471C, VNG0472H
+  74        365304     367918    -          2  porB, porA
+  75        369409     370787    -          2  VNG0478C, yajO1
+  76        376820     379233    -          4  VNG0485H, hat1, VNG0487H, VNG0488H
+  77        382599     383987    -          2  VNG0492H, grpE
+  78        384499     385913    -          2  VNG0498C, cna
+  79        393802     394186    +          2  VNG0508H, VNG0509H
+  80        395945     399756    +          2  ppe, VNG0514C
+  81        404888     408491    +          3  yurY, VNG0525C, VNG0527C
+  82        413539     416737    -          2  VNG0537C, VNG0539C
+  83        421905     424007    -          5  VNG0546C, VNG0548C, eif2a, rps27e, rpl44e
+  84        431659     436198    -          3  VNG0560C, VNG0562C, ndhG2
+  85        436530     439563    -          6  VNG0565C, VNG0564H, VNG0566C, mnhG, VNG0568C, VNG0571C
+  86        444303     445168    +          2  VNG0576C, VNG0578H
+  87        445263     445803    -          2  VNG0579H, VNG0581H
+  88        445897     449389    -          5  VNG0582C, cyb, VNG0584H, VNG0585H, VNG0586C
+  89        458746     459317    +          2  VNG0599C, VNG0601H
+  90        461747     462840    -          2  VNG0608C, VNG0609C
+  91        466928     469276    -          2  VNG0613H, htr16
+  92        479857     481397    -          2  aspB2, ribH
+  93        483366     485068    +          2  purK, purE
+  94        485194     487989    +          3  nolB, ndhG1, ndhG5
+  95        488101     489503    +          2  ndhG4, nolD
+  96        489893     494068    +          4  VNG0642C, nolC, nuoL, nuoM
+  97        495620     497903    +          2  VNG0650C, imd1
+  98        503179     503834    -          2  VNG0659H, VNG0660H
+  99        503953     505708    +          2  coxC, birL
+  100       506634     510302    +          4  ctaB, trp4, VNG0668C, VNG0669H
+  101       510308     511413    -          2  VNG0670H, VNG0671H
+  102       511535     512927    +          2  mcmA2, VNG0674C
+  103       513894     517029    -          4  VNG0676C, acaB1, VNG0677H, acd4
+  104       519914     522283    +          3  VNG0683C, fbp, VNG0686C
+  105       523515     526114    +          2  trp5, VNG0690C
+  106       536584     537907    +          2  VNG0711C, VNG0713C
+  107       543049     545673    -          2  dip2, pepQ1
+  108       545760     546978    +          2  VNG0724H, VNG0725H
+  109       554704     557208    +          2  hlx2, kinA2
+  110       560272     565773    -          3  spoVR, VNG0746C, prkA
+  111       570402     572417    -          2  ylnA, VNG0754C
+  112       573224     575892    +          4  tfeA, VNG0758C, VNG0759H, dip3
+  113       579298     580198    +          3  VNG0767H, VNG0768H, VNG0769H
+  114       584205     585127    -          2  taqD, VNG0778C
+  115       585235     587128    +          2  VNG0779C, VNG0780H
+  116       591340     592118    -          2  rps3e, VNG0788H
+  117       592199     593774    -          2  VNG0789C, rps15p
+  118       594361     597695    -          2  htr6, yufN
+  119       601488     602782    +          2  VNG0799C, VNG0800H
+  120       609588     613207    +          2  htr18, potD
+  121       616933     620333    +          2  VNG0818C, VNG0819C
+  122       620587     622844    -          2  VNG0821C, VNG0822C
+  123       623369     625786    -          2  gspE2, gdb
+  124       627213     632625    +          5  VNG0828H, dmsA, hmoA, moz, VNG0832C
+  125       636909     638265    +          2  VNG0837H, ssrA
+  126       642117     644420    -          2  VNG0847H, VNG0849C
+  127       646591     648294    +          2  VNG0854C, VNG0857Cm
+  128       654315     656017    +          2  VNG0865C, asnA
+  129       656033     657525    -          2  VNG0868H, tfbD
+  130       657575     659232    +          2  gatC, gatA
+  131       659810     661929    +          2  traB, VNG0875Cm
+  132       663068     664013    -          2  VNG0878Gm, VNG0879C
+  133       668445     671956    -          2  top6A, top6B
+  134       672176     676487    +          2  gyrB, gyrA
+  135       676676     679143    +          4  imd2, yjlD, VNG0892H, VNG0892a
+  136       680470     685362    -          4  rbsC1, rbsC2, rbsA, VNG0903C
+  137       685465     687372    -          2  pmu2, VNG0906H
+  138       687787     689866    +          2  putP, VNG0909H
+  139       689936     691643    +          2  VNG0911H, VNG0913H
+  140       694068     696996    -          2  ark, hrg
+  141       698755     704714    -          4  VNG0920H, potA1, sfuB, ibp
+  142       706028     708309    -          2  VNG0927C, mak
+  143       709490     711030    +          2  acaB2, VNG0932C
+  144       716669     719832    +          2  ACS3, VNG0941C
+  145       721030     728857    -          7  minD1, fapJ, gspE3, flaH, VNG0950a, VNG0953C, VNG0954C
+  146       728962     731339    -          2  fapE, htr15
+  147       737643     743831    -          7  cheD, VNG0969H, cheC1, cheA, cheB, cheY, cheW1
+  148       774736     775805    +          2  VNG1011Cm, VNG1012H
+  149       778446     779960    -          2  VNG1015H, VNG1017H
+  150       780246     786526    +          7  adh3, VNG1020C, VNG1021C, VNG1023C, VNG1024C, VNG1025H, VNG1026H
+  151       786530     790092    -          5  tpiA, VNG1029C, pgsA, VNG1031C, hisC1
+  152       790599     792703    -          2  VNG1035C, VNG1036H
+  153       812621     814280    +          2  VNG1065C, VNG1066C
+  154       820841     823564    -          3  cinR, lfl1, ykfB2
+  155       827496     831214    -          3  menD, menF, yuiH
+  156       836666     838644    -          2  VNG1092C, VNG1093C
+  157       842300     843680    +          2  VNG1099C, VNG1100C
+  158       845055     847103    -          3  rpl12p, rplP0, rpl1P
+  159       848173     850534    +          3  drg, VNG1112H, glo1
+  160       855719     858582    -          2  korB, korA
+  161       858687     859939    -          2  VNG1130H, mrp
+  162       860275     862442    +          4  rps13p, rps4p, rps11p, rpb3
+  163       862694     866215    +          7  rpl18e, rpl13p, rps9p, rpoN, rpoK, eno, rps2P
+  164       867210     868936    +          2  mvk, argB
+  165       869155     871544    +          2  VNG1149Cm, idsA
+  166       873734     876539    -          2  VNG1154H, hsp3
+  167       876667     877930    +          4  rpl7ae, rps28e, rpl24e, ndk
+  168       878982     880452    -          2  hemK, VNG1164C
+  169       880623     882802    -          4  ksgA, VNG1168C, VNG1169C, rpl21e
+  170       884446     884888    -          2  ef1B, VNG1173a
+  171       886911     888373    +          2  nop56/58, fib
+  172       888387     889327    -          2  VNG1178H, VNG1179C
+  173       889326     890526    +          2  msrA, flaA1b
+  174       891125     892578    -          2  nirJ, VNG1183H
+  175       893923     895686    +          2  pan1, hcpD
+  176       899522     899878    -          2  VNG1194H, VNG1196H
+  177       902438     905068    -          3  fucA, VNG1202C, gdhA2
+  178       907743     913253    +          4  hutU, hutG, hutI, hutH
+  179       916393     918068    -          2  pai1, pgk
+  180       929643     931761    +          2  VNG1235C, VNG1236C
+  181       932654     935048    +          2  VNG1238C, yhdG
+  182       936143     937260    -          2  VNG1244C, VNG1245C
+  183       937934     940758    -          3  ybhF, VNG1249C, VNG1250H
+  184       943743     947262    -          3  yhcR, VNG1253C, VNG1255C
+  185       947927     949348    -          2  VNG1257H, trxB2
+  186       955464     957366    +          2  VNG1272C, moaC
+  187       957376     959457    -          2  hflX2, VNG1276C
+  188       959518     960975    -          3  VNG1279H, VNG1280C, VNG1281H
+  189       961406     963932    -          3  trkA5, VNG1283H, trkH1
+  190       964835     965509    -          2  VNG1287C, VNG1289H
+  191       965562     966543    -          2  VNG1291H, VNG1292H
+  192       976559     980084    -          4  sdhA, sdhB, sdhD, sdhC
+  193       983197     983818    +          2  VNG1314H, VNG1315H
+  194       986348     989949    +          2  cbp, VNG1323C
+  195       994265     996206    -          2  phr2, VNG1336C
+  196      1000227    1002007    +          2  fabG, VNG1342Gm
+  197      1004042    1005329    +          2  VNG1345H, VNG1347C
+  198      1007425    1012807    -          4  gatB1, VNG1353C, VNG1355H, fumC
+  199      1013011    1014834    -          3  VNG1357C, rad2, VNG1360H
+  200      1017495    1019149    -          3  VNG1366H, srp19, btuF
+  201      1019209    1022991    +          3  btuC, btuD, VNG1372C
+  202      1026961    1028247    -          2  asnC, suhB
+  203      1029784    1030734    +          2  VNG1381H, VNG1382H
+  204      1030786    1033934    +          3  rad3a, VNG1384H, yvoF
+  205      1033931    1036099    -          3  VNG1387H, VNG1388H, VNG1389C
+  206      1036721    1037746    -          2  VNG1390a, VNG1394H
+  207      1040976    1042369    -          3  VNG1402H, VNG1401C, VNG1403H
+  208      1051252    1053737    -          2  VNG1412H, VNG1413H
+  209      1058589    1059986    +          2  VNG1420H, VNG1422H
+  210      1060839    1061363    +          2  VNG1426H, VNG1427H
+  211      1065552    1066809    +          2  rps17E, asd
+  212      1068714    1070375    -          2  VNG1440H, htr12
+  213      1071909    1073080    -          2  VNG1446H, VNG1447H
+  214      1073658    1075960    +          2  yfkN, VNG1451C
+  215      1077321    1080326    -          3  VNG1454C, VNG1455H, VNG1456H
+  216      1082555    1084842    -          2  VNG1461H, cdc48a
+  217      1085495    1088622    -          2  bat, brp
+  218      1090362    1092457    +          2  pri, VNG1471C
+  219      1092551    1095075    -          2  cdc48b, VNG1473H
+  220      1096286    1100202    +          2  VNG1475C, VNG1476C
+  221      1110237    1111710    -          3  rpl37e, snp, celM
+  222      1113845    1117103    +          2  hel, VNG1503C
+  223      1121952    1125985    -          3  VNG1510C, VNG1511C, VNG1513H
+  224      1126036    1127235    -          2  VNG1514H, tdk
+  225      1137505    1139312    +          2  mmdA, VNG1530H
+  226      1148259    1150396    +          2  sucC, sucD
+  227      1154318    1155096    -          2  VNG1547C, VNG1546H
+  228      1156903    1165566    +         11  cbiT, cbiL, cbiF, cbiG, cobH, cbiH, VNG1558H, VNG1559H, VNG1561Cm, VNG1562H, VNG1564H
+  229      1167897    1173053    +          3  cobN, cbiC, cbiJ
+  230      1174064    1178492    +          4  VNG1572C, cbiA, cobI, cbiP
+  231      1178690    1180071    +          2  VNG1577C, VNG1578H
+  232      1180212    1183096    +          4  VNG1580H, VNG1581C, hisC2, VNG1583C
+  233      1190152    1191887    -          2  cysT2, VNG1595C
+  234      1192390    1195136    -          2  gcvP2, gcvP1
+  235      1195419    1196881    -          2  gdcH, gcvT
+  236      1205963    1207039    -          2  VNG1619H, VNG1621H
+  237      1215673    1217354    -          3  cbiQ, cbiN, cbiM
+  238      1224838    1228674    -          4  trpG1, trpE1, trpF, trpD
+  239      1234475    1235829    -          2  VNG1655H, VNG1657H
+  240      1237084    1239413    +          2  htr1, sop1
+  241      1245442    1246270    +          2  VNG1670C, VNG1672H
+  242      1247384    1248534    +          2  VNG1675H, VNG1675a
+  243      1248609    1250634    +          2  gbp2, VNG1678H
+  244      1252256    1256442    -          4  VNG1681C, ubiA, crtI1, mch
+  245      1258177    1272334    +         25  VNG1688C, rpl3p, rpl4lp, rplW, rpl2p, rps19p, rpl22p, rps3p, rpmC, VNG1699C, rps17p, rpl14p, rpl24p, rps4e, rpl5p, rps14P, rps8p, rpl6p, rpl32e, rpl19e, rpl18p, rps5p, rpl30p, rpl15p, secY
+  246      1277691    1279176    +          2  cmk, sus
+  247      1281743    1283685    -          2  htr17, VNG1734H
+  248      1284679    1287537    +          3  VNG1737H, htlC, VNG1740C
+  249      1293457    1296458    -          2  phr1, crtI2
+  250      1296996    1298917    +          2  VNG1758H, htr7
+  251      1298933    1302374    -          2  htr5, proX
+  252      1304168    1307177    -          2  sop2, htr2
+  253      1307267    1309261    -          3  VNG1766C, speB, eif5a
+  254      1309363    1311800    -          2  VNG1769Cm, VNG1770C
+  255      1313406    1316441    -          3  hemA, VNG1775C, nirH
+  256      1321352    1323051    +          2  VNG1783H, panF
+  257      1323330    1325654    +          3  VNG1787H, VNG1788C, VNG1790H
+  258      1333815    1335148    -          2  hsp1, VNG1802H
+  259      1344157    1345697    +          3  trh3, idi, VNG1818a
+  260      1345750    1347026    -          2  VNG1820H, adh4
+  261      1347117    1348438    +          2  moaB, VNG1823C
+  262      1349130    1351708    -          2  guaAb, pyrG
+  263      1351798    1352584    -          2  VNG1831H, VNG1832H
+  264      1356582    1358623    -          2  ykfB1, VNG1839H
+  265      1360326    1363230    +          3  VNG1843C, ansA, VNG1845C
+  266      1363231    1364264    -          2  VNG1846C, VNG1848H
+  267      1367036    1372538    -          5  udp1, suk, VNG1852H, eif2ba, htr3
+  268      1376404    1377889    -          2  cef, hit2
+  269      1378248    1382075    -          4  map, potC, potB, VNG1869C
+  270      1387529    1388991    +          2  VNG1877C, thb
+  271      1390684    1394133    +          3  nadA, nadB, nadC
+  272      1398710    1402349    +          3  VNG1891H, trp2, VNG1894C
+  273      1402807    1405080    +          2  VNG1896C, VNG1898C
+  274      1406440    1408272    +          2  VNG1900C, VNG1901C
+  275      1415175    1417231    +          3  trpD2, ppiA, VNG1916H
+  276      1418630    1419372    -          2  VNG1919H, VNG1921H
+  277      1419958    1420965    -          2  trh5, trkA6
+  278      1424535    1426988    +          3  ftsZ3, VNG1934H, VNG1935C
+  279      1432237    1432788    -          2  VNG1942H, VNG1943H
+  280      1432842    1433767    -          2  purL2, VNG1944C
+  281      1438138    1443020    -          2  VNG1952H, VNG1953C
+  282      1445947    1448213    -          3  tgtA1, VNG1960H, VNG1962C
+  283      1450110    1452694    -          2  VNG1965H, glpK
+  284      1452915    1457290    +          3  gpdA2, gpdB, glpC
+  285      1459030    1460374    +          2  VNG1977H, VNG1978H
+  286      1461293    1463364    -          2  VNG1980C, VNG1983H
+  287      1463506    1465423    +          2  VNG1982C, rnhB
+  288      1467921    1470301    -          2  secD, secF
+  289      1470434    1471497    -          2  VNG1989H, VNG1991H
+  290      1471603    1473941    +          2  pgi, VNG1993H
+  291      1477154    1478904    -          2  VNG1999H, prrIV1
+  292      1482219    1484322    -          2  truA, hisS
+  293      1484374    1485321    -          2  VNG2006C, VNG2008H
+  294      1488724    1491100    +          2  pyrH, lysS
+  295      1496766    1497952    +          2  yyaI, VNG2027H
+  296      1500208    1501619    -          2  FAD1, VNG2034H
+  297      1502096    1504212    -          2  hlx1, VNG2037C
+  298      1505903    1508879    -          5  ham1, VNG2044H, gcp, rps27ae, rps24e
+  299      1509474    1511880    -          4  rpoE'', rpoE', VNG2054H, eif2g
+  300      1512989    1514916    -          2  phnP, atp
+  301      1518251    1519487    +          2  dgs, VNG2067H
+  302      1519498    1524328    -          3  VNG2068C, lfl2, VNG2073C
+  303      1526221    1526992    +          2  VNG2075C, rpl40e
+  304      1528776    1530145    +          3  VNG2081H, VNG2081a, polC
+  305      1530149    1531983    -          2  phnE, phnC
+  306      1534374    1535945    +          2  trm1, VNG2089H
+  307      1542149    1542730    -          2  VNG2098H, VNG2099C
+  308      1547630    1549723    +          2  sdh, thrC3
+  309      1563368    1565765    -          3  ribB, VNG2126C, VNG2128C
+  310      1565967    1567018    -          2  VNG2129H, minD2
+  311      1569140    1570221    -          2  VNG2133H, atpD
+  312      1572295    1577718    -          6  atpB, atpA, atpF, atpC, atpE, atpK
+  313      1577784    1580271    -          2  atpI, VNG2146H
+  314      1584077    1585842    +          2  etfB, etfA
+  315      1591620    1592939    +          2  VNG2157C, oxrA
+  316      1593632    1596076    +          3  VNG2160C, VNG2162C, VNG2163H
+  317      1597649    1601007    -          2  VNG2166Cm, dbp
+  318      1609442    1610333    -          2  VNG2176H, VNG2177H
+  319      1616518    1617650    +          2  VNG2182H, VNG2183H
+  320      1619975    1620665    -          2  hit1, VNG2187H
+  321      1624252    1626980    -          3  VNG2191H, coxA1, coxB2
+  322      1628491    1631587    +          2  VNG2199H, cpx
+  323      1634861    1636677    +          2  VNG2205H, pmu1
+  324      1637859    1645003    -          5  trpS1, endA, VNG2211H, brr2, dinF
+  325      1647485    1652105    +          4  pdhB, dsa, lpdA, pheA
+  326      1657929    1660737    -          3  VNG2227C, VNG2230H, VNG2231C
+  327      1664886    1667825    -          2  VNG2238C, VNG2239C
+  328      1667940    1669326    +          2  rfcC, VNG2241H
+  329      1670410    1671772    +          3  tbpE, VNG2244H, VNG2246H
+  330      1672712    1674579    +          2  VNG2248H, trzA
+  331      1684849    1685743    -          2  VNG2264C, VNG2268H
+  332      1688071    1691161    +          2  tatC1, mutS3
+  333      1691265    1693111    +          2  cdc6, rpi
+  334      1702009    1703100    -          2  hisI, VNG2285C
+  335      1703613    1706755    +          3  mamA, mamB, mal
+  336      1706814    1708912    +          2  maoC1, cat
+  337      1714614    1715721    +          2  VNG2299H, txrB3
+  338      1717821    1718790    -          2  VNG2304H, upp
+  339      1722306    1723111    +          2  VNG2310H, VNG2311H
+  340      1726551    1727857    +          2  VNG2316C, cbiO1
+  341      1731824    1733473    +          2  hem2, VNG2323H
+  342      1733850    1736689    +          4  VNG2324H, hemL, VNG2328H, VNG2329C
+  343      1736746    1740857    +          4  hem3, uroM, hemD, VNG2333C
+  344      1744977    1746138    +          2  VNG2335H, VNG2337C
+  345      1746166    1750697    -          2  polA2, VNG2339C
+  346      1751629    1757388    -          6  VNG2341H, VNG2342H, ykfD, oppD2, dppC2, dppB1
+  347      1759702    1762282    +          2  VNG2351C, glyS
+  348      1762507    1765239    +          2  VNG2353H, eif4a
+  349      1765447    1771921    +          5  appA, appB, appC, oppD1, appF
+  350      1773915    1776760    +          2  rad24b, VNG2369C
+  351      1777089    1778402    +          2  VNG2371C, rad24c
+  352      1778408    1781027    -          2  tnaA, lysC
+  353      1781563    1783271    -          2  nosY, nosF1
+  354      1786190    1789599    -          2  nrdA, nrdB1
+  355      1791684    1794433    -          2  uvrB, VNG2392H
+  356      1796340    1800243    +          3  VNG2395C, cysT1, cysA
+  357      1800999    1802088    +          2  VNG2399H, VNG2400H
+  358      1802096    1804554    -          3  VNG2403H, VNG2402H, dip1
+  359      1804702    1805693    -          2  VNG2406C, VNG2408C
+  360      1808793    1809604    -          2  VNG2412H, VNG2413H
+  361      1809646    1810406    +          2  VNG2414H, VNG2415H
+  362      1827120    1830268    -          3  VNG2433H, argH, argG
+  363      1838756    1839737    +          2  VNG2452C, VNG2454C
+  364      1840774    1843336    -          3  VNG2456Cm, VNG2458C, srp54
+  365      1843883    1845476    -          2  dpa, VNG2465C
+  366      1845619    1846717    -          3  EIF6, rpl31e, rpl39e
+  367      1846853    1847949    +          2  VNG2468C, VNG2470C
+  368      1850921    1853057    +          2  VNG2474C, VNG2475C
+  369      1856718    1861650    -          4  pstB1, pstA1, pstC1, yqgG
+  370      1861805    1863449    +          2  VNG2488C, VNG2490H
+  371      1864885    1865437    -          2  VNG2495H, ferB
+  372      1865502    1866383    +          2  VNG2497H, VNG2498H
+  373      1869757    1872968    +          2  pheS, pheT
+  374      1881134    1882036    +          2  VNG2509H, VNG2510H
+  375      1886025    1887203    +          2  VNG2515H, VNG2516C
+  376      1887200    1889127    -          2  VNG2518C, VNG2519H
+  377      1890170    1891115    -          2  VNG2522C, VNG2523H
+  378      1892426    1897006    +          2  dppF, dppD
+  379      1897064    1899422    +          3  dppB2, dppC1, VNG2532H
+  380      1899427    1901403    -          2  pyrC, VNG2536C
+  381      1901458    1902801    +          2  VNG2534C, VNG2535H
+  382      1911770    1914853    +          3  VNG2549C, fhuG, yfmF
+  383      1918048    1921212    -          3  fepC, yfmD2, VNG2562H
+  384      1930439    1933832    +          4  can, rimI, VNG2576H, VNG2577C
+  385      1939254    1940475    +          2  VNG2591C, VNG2593H
+  386      1942002    1943547    -          4  hisI, VNG2597C, hisH1, VNG2599H
+  387      1946319    1948588    +          2  THI1, thiD
+  388      1949316    1950610    -          2  VNG2608C, VNG2608a
+  389      1952690    1954824    -          2  rli, VNG2613H
+  390      1960727    1963569    +          2  uvrD, VNG2622H
+  391      1977745    1979123    -          2  gcvT2, VNG2641H
+  392      1979205    1980583    +          2  VNG2642H, VNG2643H
+  393      1982514    1984121    +          2  VNG2645H, vacB
+  394      1984401    1985978    -          2  rps10p, eef1a
+  395      1992911    1993975    -          2  rps7p, rps12P
+  396      1994139    2002286    -          6  nusA, rpoC, rpoA1, rpoB', rpoB'', rpoH
+
+================================================================================
+  GENOME : Synechocystis sp. PCC 6803, complete genome
+================================================================================
+
+  --- Summary Statistics ---
+  Total genes (annotated)       : 3170
+  Total operons predicted       : 488
+  Genes in operons              : 1151  (36.31% of all genes)
+  Singleton genes (no operon)   : 2019  (63.69% of all genes)
+
+  Operon size (number of genes):
+    Minimum   : 2
+    Maximum   : 12
+    Mean      : 2.36
+    Median    : 2.0
+
+  Strand breakdown:
+    Forward (+) operons : 240
+    Reverse (-) operons : 248
+
+  Largest operon (12 genes):
+    Location : 837001 - 842613  [-]
+    Genes    : rpl24, rpl14, rps17, rpl29, rpl16, rps3, rpl22, rps19, rpl2, rpl23, rpl4, rpl3
+
+  Longest genomic span operon (9497 bp):
+    Location : 2050296 - 2059792  [-]
+    Genes    : sll1531, sll1530, sll1528, sll1527
+
+  Operon size distribution:
+      Size   Count  Bar
+    ------  ------  ----------------------------------------
+         2     373  ||||||||||||||||||||||||||||||||||||||||
+         3      84  ||||||||||||||||||||||||||||||||||||||||
+         4      17  |||||||||||||||||
+         5       8  ||||||||
+         6       3  |||
+         7       1  |
+         8       1  |
+        12       1  |
+
+  Detailed operon list:
+  #          Start       Stop  Strand  NGenes  Gene IDs
+  --------------------------------------------------------------------------------
+  1          15937      17687    +          2  fecE, fecB
+  2          21838      25144    -          3  sll1204, sll1203, sll1202
+  3          32524      33544    -          2  sll1405, exbB
+  4          39802      43397    +          2  fhuA, fecB
+  5          43571      44885    +          2  fecB, slr1493
+  6          47007      50231    -          5  sll1401, sll1400, ssl2733, sll1399, psbW
+  7          55669      57224    -          2  rfbD, msrA
+  8          61834      64914    +          3  slr1114, slr1115, slr1116
+  9          70016      74229    -          4  sll1062, sll1061, sll1060, ssl2069
+  10         81696      83853    -          2  sll1054, sll1053
+  11        102930     106539    -          2  sll0710, sll0709
+  12        108290     110313    +          2  slr0722, slr0723
+  13        114874     116477    +          2  slr0730, slr0731
+  14        118333     119962    -          2  sll0703, sll0702
+  15        123501     124348    -          2  sll0700, sll0699
+  16        134437     138112    +          2  infB, slr0236
+  17        138295     141007    +          2  glgX, slr0238
+  18        142559     143826    +          2  slr0240, slr0241
+  19        144061     145081    +          2  bcp, slr0243
+  20        148022     149683    -          2  sll0228, ppiB
+  21        150594     153050    -          2  sll0225, sll0224
+  22        154143     156258    +          3  slr0250, slr0251, cobK
+  23        156741     158615    -          2  ssl0410, ndhB
+  24        159812     160093    -          2  sgl0002, petN
+  25        164037     168152    -          3  sll0219, sll0218, sll0217
+  26        174586     176139    -          3  atpD, atpF, atpG
+  27        179734     182221    +          2  slr1414, slr1415
+  28        183935     185636    -          2  sll1319, sll1318
+  29        185772     188898    -          2  sll1041, sll1040
+  30        192870     194801    +          2  phdD, slr1097
+  31        200405     204395    +          2  slr1103, slr1104
+  32        215504     218273    -          2  ccmN, ccmM
+  33        218407     219077    -          2  ccmL, ccmK1
+  34        221742     223596    +          2  ank, slr1110
+  35        226928     228812    +          3  ssr2972, slr1773, slr1774
+  36        234905     237438    -          2  cad, sll1682
+  37        237600     238745    +          2  pdxJ, slr1780
+  38        238804     242047    -          3  sll1681, msrB, hhoA
+  39        249062     251641    +          2  slr1788, slr1789
+  40        251758     255629    -          2  sll1673, sll1672
+  41        268789     271369    -          3  sll1664, sll1663, pheA
+  42        279512     281443    -          3  sll1656, birA, sll1654
+  43        283060     285080    +          2  icd, slr1290
+  44        292790     293669    -          2  trmD, ssl2384
+  45        302367     303190    -          2  sll1192, sll1191
+  46        303939     308076    +          3  slr1301, slr1302, slr1303
+  47        314255     315784    -          2  lgt, sll1186
+  48        327604     331060    -          4  sll0939, sll0938, ssl1792, sll0936
+  49        335819     336582    -          2  sll0933, rps15
+  50        338503     339625    -          2  sll0930, apcD
+  51        341135     342759    -          2  dusA, sll0925
+  52        348701     350298    +          2  slr0976, slr0977
+  53        352263     357697    +          6  rfbB, rfbF, rfbG, rfbC, slr1610, slr1611
+  54        360030     364996    +          5  rfbE, slr1616, slr1617, slr1618, slr1619
+  55        365716     368910    +          2  slr1063, rfbU
+  56        370285     372509    +          2  slr1066, galE
+  57        373231     374511    +          2  slr1069, slr1070
+  58        374646     376432    +          2  slr1071, yefA
+  59        376485     378951    +          2  slr1073, slr1074
+  60        380030     382337    +          2  slr1076, slr1077
+  61        382392     382873    +          2  ssr1765, ssr1766
+  62        382949     383794    +          2  galE, slr1079
+  63        384343     385390    +          2  slr1081, slr1082
+  64        389175     390634    -          2  sll1025, ssl1972
+  65        391899     393849    -          2  sucC, sll1022
+  66        393996     396941    -          2  sll1021, sll1020
+  67        397037     398361    +          2  obgE, hliA
+  68        416356     418541    +          2  slr0678, fmu/fmv
+  69        418704     420264    +          2  slr0680, slr0681
+  70        421765     422612    -          2  sll0651, sll0650
+  71        422772     424566    -          2  sll0649, lim
+  72        424694     428544    -          3  sll0647, cyaA, sll0645
+  73        432779     436158    -          2  sll0641, Sac1
+  74        437705     439118    +          2  ssr1155, slr0689
+  75        473953     474432    -          2  vapC, vapB
+  76        475110     475743    -          2  sll1505, sll1504
+  77        484799     487353    -          2  cbiA, sll1500
+  78        491084     492059    +          2  slr1042, slr1043
+  79        494828     496006    +          2  slr1045, slr1046
+  80        503943     505267    +          2  envM, slr1052
+  81        520918     521357    -          2  ssl1922, ssl1920
+  82        523016     524114    -          2  sll1001, ssl1918
+  83        533086     539020    +          3  slr1759, slr1760, ytfC
+  84        545029     545588    +          2  ssr2962, slr1767
+  85        545591     547365    -          2  sll1640, ureD
+  86        555262     556946    +          2  slr1847, hisD
+  87        559461     561658    -          2  ureC, sll1749
+  88        570658     571355    +          4  psbE, psbF, psbL, psbJ
+  89        574562     576127    +          2  slr2037, slr2038
+  90        576139     579696    -          2  sll1942, gyrA
+  91        579787     581055    +          2  divK, slr2042
+  92        581052     582162    -          2  sll1940, sll1939
+  93        583680     586342    +          3  zntC, slr2044, slr2045
+  94        609469     610487    +          2  slr1906, slr1907
+  95        613801     615269    +          2  amiA, slr1911
+  96        616456     617178    +          2  slr1913, slr1914
+  97        622300     624594    -          2  ftsI, sll1832
+  98        633789     636247    -          2  sll0997, sll0996
+  99        638774     640613    -          2  sll0994, sll0993
+  100       642153     643482    +          3  slr1023, slr1024, slr1025
+  101       643549     645497    -          2  sll0992, sll0990
+  102       658262     660584    +          2  chlI, tyrS
+  103       660772     662819    +          2  slr1032, slr1033
+  104       664903     667375    -          2  sll0985, sll0984
+  105       669254     670949    -          2  sll0981, sll0980
+  106       671912     673612    +          3  slr1376, lepB, slr1378
+  107       673889     676354    +          2  cydA, cydB
+  108       677045     679023    -          2  ackA, clcD
+  109       679690     681572    +          3  slr1383, ssr2317, slr1384
+  110       683140     684439    -          2  pobA, ssl2559
+  111       690399     691264    -          2  sll1293, sll1292
+  112       695975     698458    +          2  ftsH, slr1391
+  113       698723     700814    +          2  ssr2333, feoB
+  114       710036     712783    -          3  cofG, sll1284, spoIID
+  115       721429     722479    +          2  ssr2843, slr1702
+  116       724492     726234    -          2  cpcC, cpcC
+  117       730108     731674    -          2  sll1575, sll1574
+  118       747234     749038    +          2  mrpC, ndhD5
+  119       749150     753179    +          7  mrpC, ndhD6, slr2010, ssr3409, ssr3410, slr2011, mrpB
+  120       756053     758753    +          3  slr2015, slr2016, slr2017
+  121       769053     771481    -          3  hemN, nadD, sll1915
+  122       771651     773905    +          2  folP, slr2027
+  123       775687     776342    -          2  sll1912, ssl3615
+  124       783379     785215    +          2  argH, slr1134
+  125       816298     817810    -          2  sll1072, sll1071
+  126       821993     822706    -          2  sll1068, ssl3451
+  127       824228     825915    -          2  rpl25, purA
+  128       826935     827803    -          2  rps9, rpl13
+  129       827868     829063    -          2  truA, rpl17
+  130       830194     831018    -          2  rps11, rps13
+  131       834333     835799    -          3  rps5, rpl18, rpl6
+  132       837001     842613    -         12  rpl24, rpl14, rps17, rpl29, rpl16, rps3, rpl22, rps19, rpl2, rpl23, rpl4, rpl3
+  133       851717     852447    +          2  slr1902, slr1903
+  134       852470     853281    -          2  sll1792, sll1791
+  135       862262     867144    -          2  sll1124, sll1123
+  136       875515     878521    +          3  slr1195, slr1196, slr1197
+  137       891276     897262    +          4  slr1208, slr1209, slr1210, cobN
+  138       897354     900662    +          2  ETR1, slr1213
+  139       908353     909483    -          2  sll1969, pmgA
+  140       946522     949343    -          2  sll1726, sll1725
+  141       949397     953098    -          3  icsA, sll1723, sll1722
+  142       968487     969294    -          2  sll1715, sll1714
+  143       969762     971184    -          2  hisC, hupA
+  144       982968     983540    +          2  ssr2595, slr1544
+  145       984562     986222    +          2  slr1546, slr1547
+  146       986492     987967    -          2  sll1466, ssl2823
+  147       991735     993483    -          2  hypE, sll1461
+  148      1015511    1017495    +          2  prc, slr1752
+  149      1018650    1019583    +          2  slr1218, ureE
+  150      1033902    1037089    +          2  prfC, slr1229
+  151      1042609    1044450    +          3  slr1234, slr1235, slr1236
+  152      1044915    1046830    -          2  sll1132, sll1131
+  153      1048406    1049016    -          2  sll1130, ssl2245
+  154      1053955    1056466    +          3  pntA, slr1240, slr1241
+  155      1056714    1058427    +          2  ssr2067, pntB
+  156      1060901    1062111    +          2  slr1437, slr1438
+  157      1069666    1072918    -          2  sll1359, sll1358
+  158      1077755    1080501    +          2  slr1442, pknA
+  159      1082437    1089190    -          3  recJ, sll1353, sll1352
+  160      1090680    1091631    +          2  slr1449, slr1450
+  161      1091698    1094495    -          3  sll1350, cbbZp, sll1348
+  162      1099214    1102014    -          2  recF, sll1276
+  163      1107242    1109452    +          3  bioB, bioY, lspA
+  164      1123441    1130007    -          2  sll1267, sll1265
+  165      1132264    1133690    -          2  ruvA, sll0875
+  166      1152549    1154101    +          2  fabG, slr0887
+  167      1154330    1156083    +          2  slr0888, slr0889
+  168      1161441    1163367    -          2  sll0863, sll0862
+  169      1182665    1184664    +          2  slr1409, slr1410
+  170      1185300    1188885    -          4  sll1306, sll1305, sll1304, sll1785
+  171      1189110    1190383    -          2  sll1784, sll1783
+  172      1190867    1191786    +          2  slr1852, slr1853
+  173      1191856    1196776    +          4  slr1854, slr1855, slr1856, glgX
+  174      1197262    1199603    +          2  ICFG, slr1861
+  175      1199708    1202915    +          2  slr1862, slr1864
+  176      1203093    1205364    +          2  slr1865, slr1866
+  177      1215973    1219235    -          2  mutS, sll1771
+  178      1221427    1222248    -          3  sll1769, ssl3383, ssl3382
+  179      1228788    1230503    -          2  aslB, sll1765
+  180      1233326    1234873    -          2  sll1761, thrB
+  181      1257261    1259869    -          2  sll2009, sll2008
+  182      1262231    1262996    -          2  sll2007, sll2006
+  183      1272225    1274098    +          2  slr2144, mbpA
+  184      1275925    1276939    -          2  ssl3291, sll1708
+  185      1279384    1282519    -          3  csgA, sppA, sll1702
+  186      1285685    1287929    -          2  sll1699, sll1698
+  187      1291637    1294368    +          2  slr1815, slr1816
+  188      1294385    1295711    -          2  sll1696, hofG
+  189      1298546    1299428    -          2  sll1692, sll1691
+  190      1308299    1310051    +          2  slr1821, nth
+  191      1311126    1313564    -          3  sll1631, sll1630, phr
+  192      1319652    1321340    -          2  sll1624, sll1623
+  193      1328927    1330961    +          2  slr1742, ndh
+  194      1337544    1338448    +          2  slr0852, rimI
+  195      1339948    1341429    -          3  sll0858, sll0857, rpoE
+  196      1341592    1343883    -          2  sll0855, sll0854
+  197      1345014    1345861    +          2  slr0856, slr0857
+  198      1346291    1348715    -          2  psbC, psbD
+  199      1356557    1359189    -          2  sll0843, nplT
+  200      1362082    1364280    -          3  sll0839, pyrF, sll0837
+  201      1368473    1369243    +          2  slr0870, slr0871
+  202      1377479    1379609    -          3  sll1164, sll1163, sll1162
+  203      1380903    1382076    -          2  sll1160, sll1159
+  204      1384571    1385301    -          2  sll1157, sll1156
+  205      1388876    1390739    +          2  pstC, pstA
+  206      1392433    1394572    -          2  dcoH, sll1151
+  207      1404253    1405664    +          2  slr1261, slr1262
+  208      1408547    1410861    -          3  sll1960, suhB, hisC
+  209      1412943    1417498    +          3  topA, slr2059, slr2060
+  210      1418723    1419663    -          2  sll1954, ssl3692
+  211      1433718    1435980    +          3  slr1990, cyaA, slr1992
+  212      1442932    1445656    +          3  slr1998, slr1999, slr2000
+  213      1446877    1450160    +          2  cphA, slr2003
+  214      1459632    1462062    -          2  folC, sll1611
+  215      1462272    1463119    +          2  slr1715, slr1716
+  216      1467830    1469164    -          2  sll1606, fabZ
+  217      1470966    1474269    +          2  aspS, slr1721
+  218      1479280    1480979    -          2  mntB, mntA
+  219      1483029    1485082    -          2  kaiB2, kaiC2
+  220      1493575    1495933    +          2  kdpB, ssr2912
+  221      1508807    1510438    +          2  ndhH, slr0262
+  222      1510489    1511942    +          2  slr0263, slr0264
+  223      1512947    1514419    -          2  dfp, ssl0461
+  224      1524022    1525991    +          2  slr0272, slr0273
+  225      1527289    1534396    -          5  sll0242, sll0241, sll0240, sll0238, sll0237
+  226      1537733    1538414    +          2  ssr3532, slr2080
+  227      1542574    1545795    -          2  hsp33, katG
+  228      1552418    1553593    -          3  sll1985, sll1984, sll1983
+  229      1560510    1561659    +          3  slr2095, slr2096, glbN
+  230      1569026    1571432    +          2  ftsY, slr2103
+  231      1578441    1579618    -          2  sll1429, ssl2789
+  232      1586716    1588878    -          2  sll1424, ntcA
+  233      1592936    1595436    +          2  dgdA, ntpJ
+  234      1601299    1602976    -          2  ppnK, psb29
+  235      1608356    1610281    +          3  ssr2554, menA, ntrX
+  236      1616193    1618422    -          3  sll1411, ssl2749, lap
+  237      1624108    1624912    +          2  slr2110, slr2111
+  238      1624982    1629822    +          6  slr2112, slr2113, spsC, slr2115, spsA, slr2117
+  239      1630082    1637087    +          8  slr2118, slr2119, slr2120, slr2121, slr2122, slr2123, slr2124, slr2125
+  240      1647498    1649260    -          3  sll1241, sll1240, sll1239
+  241      1658886    1659528    +          2  ssr2201, slr1327
+  242      1660539    1663507    -          3  sll1232, mtfB, sll1229
+  243      1667918    1670681    +          2  ymxG, fabF
+  244      1672402    1673115    -          2  sll1225, ssl2420
+  245      1673167    1676784    -          4  hoxY, hoxU, sll1222, hoxF
+  246      1683745    1686035    +          2  dacB, slr0806
+  247      1690310    1691376    -          2  sll0818, ssl1520
+  248      1691444    1693478    -          2  miaA, sll0816
+  249      1696810    1698797    +          2  slr0812, slr0813
+  250      1701117    1702043    -          2  sll0811, sll0810
+  251      1706134    1707971    +          2  int, ssr1391
+  252      1715749    1718080    -          3  sll0804, sll0803, sll0802
+  253      1724248    1725095    -          2  sll1257, sll1256
+  254      1725514    1727123    +          3  slr1338, slr1339, slr1340
+  255      1739005    1739591    -          2  ssl2471, sll1250
+  256      1798425    1801497    +          3  slr1978, trpE, slr1980
+  257      1812371    1814121    -          2  sll1870, cbaB
+  258      1820641    1821947    -          3  ssl2717, sll1389, sll1388
+  259      1824417    1825525    +          2  slr1467, slr1468
+  260      1825581    1826469    +          3  rpl34, rnpA, slr1470
+  261      1834564    1836947    -          2  sll1378, mgdA
+  262      1856864    1860189    +          3  slr1266, mrdB, ggt
+  263      1863056    1864290    +          2  slr1272, slr1273
+  264      1865660    1867381    +          2  slr1275, slr1276
+  265      1869828    1871406    -          2  sll1174, sll1173
+  266      1874380    1875658    +          2  ndhK, ndhJ
+  267      1876025    1876872    +          2  slr1282, slr1283
+  268      1883953    1885554    +          2  slr1287, slr1288
+  269      1887215    1888557    -          2  sll1447, sll1446
+  270      1888689    1890936    -          2  leuD, pyrG
+  271      1900202    1901049    -          2  sll1437, sll1436
+  272      1904987    1907438    -          2  sll1433, hypB
+  273      1907621    1908912    +          2  slr1533, slr1534
+  274      1910713    1913469    -          3  glnH, sll1103, sll1102
+  275      1929956    1932235    +          2  met3, slr1166
+  276      1932285    1932877    -          2  sll1092, ssl2138
+  277      1934729    1936214    +          2  gldA, slr1168
+  278      1938682    1940904    -          2  sll1089, sll1087
+  279      1941740    1943338    +          2  slr1173, ssr1951
+  280      1951140    1953432    +          2  glpK, spoU
+  281      1960256    1960693    +          2  ssr2802, ssr2803
+  282      1961522    1964766    -          2  sll1563, sll1562
+  283      1980866    1984475    +          4  psaE, mutM, slr1690, nadE
+  284      1996810    1998164    +          2  slr0935, nadC
+  285      2001058    2003282    -          2  cbiC, pqqE
+  286      2003443    2005380    +          2  crtQ, slr0941
+  287      2005641    2007569    +          2  slr0942, fda
+  288      2015921    2017605    +          2  natD, slr0950
+  289      2017668    2019852    -          3  sll0911, sll0910, sll0909
+  290      2023366    2024964    +          2  slr0954, slr0955
+  291      2033884    2035667    +          2  slr1623, slr1624
+  292      2037895    2038978    +          2  slr1626, slr1627
+  293      2040411    2041799    +          2  slr1628, slr1629
+  294      2042755    2045181    -          2  sll1534, pilT
+  295      2046312    2047191    -          2  sll1532, ssl2982
+  296      2047314    2048947    +          2  slr1635, slr1636
+  297      2050296    2059792    -          4  sll1531, sll1530, sll1528, sll1527
+  298      2069792    2071704    +          3  psbZ, rnc, slr1647
+  299      2074785    2078937    -          3  pgsA, sll1521, recN
+  300      2094540    2095357    -          2  ureB, sll0419
+  301      2101586    2104425    -          3  sll0273, sll0272, nusB
+  302      2106481    2109396    -          2  priA, sll0269
+  303      2109514    2114694    -          2  sll0268, sll0267
+  304      2114900    2119963    -          5  sll0266, sll0265, sll0264, sll0263, desD
+  305      2123113    2125063    +          2  slr0285, slr0286
+  306      2126696    2127341    +          2  rps16, slr0287
+  307      2136076    2137256    +          3  slr0294, slr0392, slr0393
+  308      2148150    2150218    +          2  slr0400, slr0401
+  309      2175932    2178836    +          5  slr0144, slr0145, slr0146, slr0147, slr0148
+  310      2178890    2179705    +          2  slr0149, petF
+  311      2190950    2192207    -          2  frr, pyrH
+  312      2193222    2196437    +          2  clpB, slr0157
+  313      2207594    2208755    -          2  sll0135, ssl0242
+  314      2209267    2209744    +          2  ssr0256, slr0166
+  315      2210099    2213551    +          3  slr1923, slr1924, cbiB
+  316      2217938    2219777    +          2  slr1926, slr1927
+  317      2219863    2221015    +          2  slr1928, slr1929
+  318      2221132    2222631    +          2  slr1930, slr1931
+  319      2231853    2233569    -          3  xthA, sll1853, ndkR
+  320      2234377    2235224    +          2  slr1936, slr1937
+  321      2242667    2244399    +          2  kaiC3, ssr3304
+  322      2255513    2256780    +          2  slr1951, slr0989
+  323      2269440    2278222    +          5  era, slr0322, ams1, slr0324, slr0325
+  324      2280325    2282521    +          2  hitB, slr0328
+  325      2283607    2284813    -          2  sll0298, sll0297
+  326      2296184    2297934    -          2  sll0294, sll0293
+  327      2303374    2305226    -          2  sll0177, sll0176
+  328      2305416    2309287    -          4  ssl0312, sll0175, sll0174, sll0173
+  329      2316352    2323452    -          3  sll0167, hemD, sll0163
+  330      2327209    2327686    -          2  sll0161, ssl0296
+  331      2329604    2332633    -          2  sll0160, glgB
+  332      2342968    2345943    +          3  slr0360, slr0361, slr0362
+  333      2376527    2381945    +          4  slr0377, slr0378, slr0379, slr0380
+  334      2384169    2385986    +          2  slr0383, slr0384
+  335      2387880    2388718    -          2  sll0328, sll0327
+  336      2390365    2392221    +          2  nifS, slr0388
+  337      2393050    2393689    +          2  slr0770, slr0771
+  338      2404227    2405784    -          2  radC, sll0765
+  339      2407687    2408748    -          2  sll0762, sll0761
+  340      2422437    2425159    +          3  tpi, slr0784, slr0341
+  341      2431275    2435120    -          2  hypF, sll0321
+  342      2436051    2437631    -          2  rnd, sll0319
+  343      2452903    2454527    +          2  slr0355, slr0356
+  344      2455751    2458193    +          2  hisS, slr0358
+  345      2460174    2463120    -          3  sll0024, sll0023, sll0022
+  346      2478844    2479634    +          2  rbcX, rbcS
+  347      2491849    2492969    -          2  sll0008, sll0007
+  348      2514966    2515565    -          2  sll0205, ssl0385
+  349      2523389    2524236    -          2  sll0201, sll0200
+  350      2532922    2534271    +          2  slr0230, slr0231
+  351      2535640    2536654    +          2  slr0232, trxM
+  352      2539637    2541540    -          2  sll0415, sll0414
+  353      2545344    2546846    -          2  sll0410, sll0409
+  354      2550499    2551779    -          2  sll0406, sll0405
+  355      2561770    2563207    +          2  slr0049, ycf40
+  356      2564244    2565960    -          2  sll0072, sll0071
+  357      2567792    2572308    -          2  sll0069, sll0068
+  358      2574909    2575641    +          2  ssr0109, slr0053
+  359      2575706    2576860    +          2  dgkA, trpG
+  360      2579527    2581210    -          2  sll0063, sll0062
+  361      2584306    2587467    -          2  sll0060, dnaK
+  362      2599522    2602599    +          3  fmt, natA, slr0468
+  363      2606629    2609333    +          2  cph1, rcp1
+  364      2612534    2616199    +          4  purN, slr0479, ycf46, slr0482
+  365      2621343    2623724    +          3  slr0489, slr0491, menE
+  366      2626819    2627929    +          2  hetI, slr0496
+  367      2630024    2630685    -          2  vapC, ssl1300
+  368      2632669    2634863    -          3  sll0688, sll0687, sll0686
+  369      2636560    2638258    -          2  pstB, pstA
+  370      2650257    2651768    -          2  sll0614, ruvB
+  371      2657897    2660561    +          3  slr0637, glyQ, slr0639
+  372      2662183    2662817    -          2  sll0609, sll0608
+  373      2668932    2672787    -          2  menD, sll0602
+  374      2672918    2675013    +          2  slr0645, dacB
+  375      2679367    2682043    -          3  dgt, sll0397, sll0396
+  376      2686769    2690262    +          2  gyrA, slr0418
+  377      2690345    2693962    -          5  sll0385, sll0384, cbiM, sll0382, sll0381
+  378      2695968    2697962    -          2  rfbW, lpxA
+  379      2715552    2716530    -          2  sll0369, pyrR
+  380      2719067    2721051    -          2  sll0189, sll0188
+  381      2721248    2723236    +          2  lytB, slr0192
+  382      2724906    2727525    +          3  slr0195, slr0196, comA
+  383      2769674    2773986    +          6  cynS, moeA, moaA, moaC, ssr1527, moaE
+  384      2785615    2789063    +          2  slr0913, slr0914
+  385      2791976    2793697    +          3  map, slr0919, slr0920
+  386      2794243    2795473    -          2  citH, ssl1690
+  387      2795856    2796823    +          2  slr0921, pth
+  388      2802183    2803401    -          2  map, ftrC
+  389      2803472    2804931    -          2  sll0553, sll0552
+  390      2811731    2813472    -          2  sll0545, sll0544
+  391      2823840    2824528    +          2  slr0581, slr0582
+  392      2826957    2829828    +          2  slr0583, slr0825
+  393      2836612    2838196    -          2  sll0833, sll0832
+  394      2841589    2843559    +          2  moxR, rfbB
+  395      2866734    2868378    +          2  slr0848, gidB
+  396      2875662    2878588    -          3  sll0086, sll0085, hisB
+  397      2895543    2897470    +          2  slr0089, ppd
+  398      2897527    2899679    +          2  slr0091, slr0092
+  399      2899797    2901486    +          2  dnaJ, slr0095
+  400      2901648    2904052    +          2  slr0096, slr0498
+  401      2911928    2913523    +          2  slr0503, slr0505
+  402      2914670    2916281    -          2  sll0482, sll0481
+  403      2921724    2923384    -          3  sll0479, sll0478, sll0477
+  404      2924716    2926100    +          2  slr0514, slr0516
+  405      2926097    2929572    -          2  sll0474, sll0473
+  406      2931028    2932989    +          3  slr0519, purL, slr0521
+  407      2941817    2943018    -          2  sll0596, sll0595
+  408      2953410    2956181    +          3  cobQ, slr0619, ssr1041
+  409      2956853    2959573    -          2  pykF, sll0586
+  410      2971032    2974520    +          2  slr0103, slr0104
+  411      2977325    2979417    +          2  slr0105, slr0106
+  412      2979476    2981007    -          2  sll0101, ama
+  413      2983802    2986011    +          2  slr0108, slr0109
+  414      2987624    2990715    -          2  sll0095, sll0094
+  415      3008974    3010241    +          2  slr0299, slr0300
+  416      3017021    3018707    +          2  slr0304, slr0305
+  417      3027318    3029472    -          2  sll0282, sll0281
+  418      3031313    3034229    +          2  slr0311, slr0312
+  419      3034451    3035881    +          2  slr0313, slr0314
+  420      3043650    3046082    +          2  slr0787, slr0788
+  421      3046531    3047452    +          2  slr0789, umuC
+  422      3047719    3049784    -          2  sll0798, sll0797
+  423      3049903    3054516    +          3  slr0793, slr0794, slr0795
+  424      3059286    3060022    -          2  sll0793, smtB
+  425      3062366    3065024    -          3  sll0790, sll0789, sll0788
+  426      3065246    3065994    +          2  slr0799, slr0800
+  427      3066175    3070123    -          5  ssl1464, sll0787, sll0786, sll0785, merR
+  428      3073927    3077367    -          3  sll0781, sll0780, sll0779
+  429      3080081    3082485    -          2  sll0777, pknA
+  430      3083494    3087700    +          2  slr0697, slr0698
+  431      3107460    3108969    -          3  sll0668, sll0667, sll0666
+  432      3114389    3115176    -          2  sll0662, ycf35
+  433      3118425    3121886    -          4  sll0659, sll0658, ssl1255, mraY
+  434      3125128    3127130    -          3  sll0744, sll0743, sll0742
+  435      3131394    3137421    -          4  sll0740, sll0739, modA, sll0737
+  436      3142513    3150794    -          4  sll0044, sll0043, tar, pixJ1
+  437      3181132    3182613    +          2  chlM, panB
+  438      3188746    3190481    +          2  slr0530, slr0531
+  439      3202811    3205920    -          3  sll0506, sll0505, lysA
+  440      3206089    3209269    -          2  sll0503, argS
+  441      3217496    3218802    -          2  sll0498, sll0497
+  442      3220068    3222681    -          2  sll0496, asnS
+  443      3224445    3226083    -          2  sll0493, argF
+  444      3229780    3231997    +          3  slr0929, slr0930, ssr1558
+  445      3231994    3234003    -          2  hisG, glmU
+  446      3234563    3237075    -          3  sll0898, ssl1707, dnaJ
+  447      3237182    3238565    -          2  ruvC, cysQ
+  448      3239906    3242598    -          2  amt3, sll0536
+  449      3242896    3244843    -          2  clpX, clpP2
+  450      3260880    3261565    -          2  sll0525, ssl1004
+  451      3270515    3272258    +          2  slr1419, slr1420
+  452      3273362    3276739    -          2  sll1344, ape2
+  453      3279795    3281123    +          2  murB, slr1425
+  454      3297142    3300209    +          4  sbpA, ssr2439, cysT, cysW
+  455      3329097    3331637    +          3  slr0654, slr0655, slr0656
+  456      3343843    3345633    -          2  sll0623, nadA
+  457      3346757    3347369    +          2  ssr1114, slr0664
+  458      3351498    3352548    +          2  slr0667, slr0668
+  459      3368515    3369762    +          2  grxC, slr1563
+  460      3370968    3372505    +          2  slr1565, slr1566
+  461      3377063    3378583    -          2  sll1489, sll1488
+  462      3378946    3380305    +          2  slr1570, slr1571
+  463      3384458    3385309    +          2  slr1576, slr1577
+  464      3387510    3388699    -          2  sll1486, sll1485
+  465      3391118    3393666    -          2  sll1482, sll1481
+  466      3393770    3397077    -          2  pgl, sll1477
+  467      3398273    3401005    -          2  ccaS, sll1472
+  468      3405684    3408256    +          2  slr1588, stpA
+  469      3409482    3412300    -          2  sll0736, sll0735
+  470      3422027    3424151    -          3  ssl1378, sll0729, accA
+  471      3426016    3426804    +          2  slr0755, ssr1258
+  472      3445348    3446743    -          2  sll0720, sll1552
+  473      3450094    3452058    +          2  slr1652, ama
+  474      3457414    3458883    +          2  pleD, slr1658
+  475      3469686    3471118    +          2  degT, ssr2781
+  476      3473692    3475117    +          2  slr1667, slr1668
+  477      3481105    3487544    -          4  sll0449, sll0448, sll0447, sll0446
+  478      3487647    3489648    -          2  sll0445, sll0444
+  479      3494649    3496404    -          2  sll0442, sll0441
+  480      3514172    3516368    +          2  agp, slr1177
+  481      3522571    3524224    +          3  slr1182, slr1183, slr1184
+  482      3525898    3528604    +          3  slr1187, im30, slr1189
+  483      3536044    3537020    +          2  slr0588, slr0589
+  484      3538977    3540569    -          2  rfbB, sll0574
+  485      3541840    3544165    -          2  arcC, sll0572
+  486      3553307    3554727    -          2  sll0565, sll0564
+  487      3554772    3556721    +          2  slr0598, slr0599
+  488      3557956    3558777    +          2  slr0601, slr0602
+
+================================================================================
+  COMBINED SUMMARY  —  4 genome(s) processed
+================================================================================
+  Genome                                          Genes   Operons  In operons   Coverage
+  --------------------------------------------- -------  --------  ----------  ---------
+  Bacillus subtilis subsp. subtilis str. 168 ch    4176       771        2294      54.9%
+  Escherichia coli str. K-12 substr. MG1655 chr    4146       784        2270      54.8%
+  Halobacterium sp. NRC-1 chromosome, complete     2075       396        1017      49.0%
+  Synechocystis sp. PCC 6803, complete genome      3170       488        1151      36.3%
+================================================================================
+
